@@ -50,3 +50,81 @@ ros2 run web_wenxun_sender_node web_wenxun_sender
 # 6. 家庭信息监控
 source install/setup.bash
 ros2 run stock_monitor_node stock_monitor
+
+
+🧩 系统架构与功能模块
+视觉感知：YOLOv8 目标检测 + 运动检测 + 共享内存低延迟读图
+核心大脑：家人关怀、记忆系统、成长系统、昼夜节律、异常判断
+消息系统：ROS2 话题通信、网页推送、远程提醒
+信息监控：家庭信息、天气、日程、状态监控
+设备控制：灯光、空调、智能家居自动 / 语音控制
+数据存储：JSON 永久记忆存储
+📦 环境要求
+系统：Ubuntu 22.04 LTS
+ROS2：Humble Hawksbill
+语言：C++（核心节点）+ Python（视觉 / 工具）
+编译：ament_cmake / colcon
+内存：支持共享内存高速图像传输
+依赖安装
+bash
+运行
+sudo apt install -y ros-humble-desktop
+sudo apt install -y ros-humble-cv-bridge libopencv-dev
+sudo apt install -y nlohmann-json3-dev librt-dev
+pip install opencv-python numpy
+📂 项目文件结构
+plaintext
+family_robot_ws/
+├── src/
+│   └── family_robot_head/   # 机器人核心大脑（C++）
+│       ├── include/
+│       ├── src/
+│       ├── CMakeLists.txt
+│       └── package.xml
+├── camera_shm_sim.py       # 摄像头共享内存模拟
+├── camera_shm_real.py      # 真实摄像头采集
+└── README.md
+🔧 编译与部署
+bash
+运行
+cd ~/family_robot_ws
+colcon build --packages-select family_robot_head
+source install/setup.bash
+🧪 使用方法
+启动核心大脑
+bash
+运行
+ros2 run family_robot_head head_node
+启动视觉（可选）
+bash
+运行
+source /opt/.yolov8_venv/bin/activate
+ros2 run yolov8_ros2 yolov8_ros2
+语音 / 指令控制
+bash
+运行
+ros2 topic pub /robot/voice_cmd std_msgs/String "data: 开灯" --once
+ros2 topic pub /robot/voice_cmd std_msgs/String "data: 开空调25度" --once
+🌗 昼夜守护模式
+白天（06:00–22:00）：主动服务、交互、提醒、设备控制
+夜晚（22:00–06:00）：安静守护、异常检测、紧急提醒
+🚨 智能异常检测
+家人长时间未出现
+夜间熬夜不睡
+久坐不动
+摔倒风险监测
+陌生人 / 异常画面监测
+📡 ROS2 话题清单
+发布
+/robot/speech 机器人语音输出
+/robot/growth 成长等级状态
+/device/light 灯光控制
+/device/aircon 空调控制
+订阅
+/robot/voice_cmd 语音指令
+/camera/image 视觉图像
+📌 永久记忆存储
+记忆文件路径：
+plaintext
+/home/robot/family_memory.json
+包含：家人习惯、交互记录、活动时间、异常事件、偏好设置。
