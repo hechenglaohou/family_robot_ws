@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cfbe12fa94db12b6dbe5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "learn_compose",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "learn_compose_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learn_compose_uninstall-0974e454fa7f09921d15.json",
+					"name" : "learn_compose_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listener_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listener_component-d17e344987a3d56b5efd.json",
+					"name" : "listener_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listener_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listener_node-8ce637944af1ca169955.json",
+					"name" : "listener_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_detector_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_detector_component-1db1c446233c47c429fc.json",
+					"name" : "motion_detector_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_detector_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_detector_node-719e624a3ae6c1be9186.json",
+					"name" : "motion_detector_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "talker_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-talker_component-c35f21a8bc2d0797915e.json",
+					"name" : "talker_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "talker_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-talker_node-c0289f3f801233df7b43.json",
+					"name" : "talker_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-50777fe1b7584af3c49b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/opt/2026_product/family_robot_ws/build/learn_compose",
+		"source" : "/opt/2026_product/family_robot_ws/src/video_face_move/learn_compose"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

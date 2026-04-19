@@ -1,0 +1,6 @@
+string content  # 消息内容
+string msg_type  # 消息类型: text/markdown
+---
+bool success    # 是否发送成功
+string message  # 提示信息
+

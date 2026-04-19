@@ -1,0 +1,4 @@
+srv/WeChatMessage.idl
+srv/WeChatMessage.srv
+srv/WeChatMessage_Request.msg
+srv/WeChatMessage_Response.msg

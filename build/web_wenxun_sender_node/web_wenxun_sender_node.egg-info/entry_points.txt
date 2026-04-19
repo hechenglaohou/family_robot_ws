@@ -1,0 +1,3 @@
+[console_scripts]
+web_wenxun_sender = web_wenxun_sender_node.web_wenxun_sender:main
+

@@ -1,0 +1,50 @@
+[0.032s] Invoking command in '/opt/2026_product/family_robot_ws/build/learn_compose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /opt/2026_product/family_robot_ws/build/learn_compose -- -j4 -l4
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target talker_node[0m
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target listener_node[0m
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target listener_component[0m
+[0.136s] [35m[1mConsolidate compiler generated dependencies of target talker_component[0m
+[0.154s] [  8%] [32mBuilding CXX object CMakeFiles/listener_node.dir/src/listener.cpp.o[0m
+[0.170s] [ 25%] Built target talker_node
+[0.174s] [ 33%] [32mBuilding CXX object CMakeFiles/listener_component.dir/src/listener.cpp.o[0m
+[0.180s] [ 50%] Built target talker_component
+[0.194s] [35m[1mConsolidate compiler generated dependencies of target motion_detector_component[0m
+[0.248s] [35m[1mConsolidate compiler generated dependencies of target motion_detector_node[0m
+[0.293s] [ 66%] Built target motion_detector_component
+[0.338s] [ 83%] Built target motion_detector_node
+[17.412s] [ 91%] [32m[1mLinking CXX shared library liblistener_component.so[0m
+[17.505s] [100%] [32m[1mLinking CXX executable listener_node[0m
+[18.454s] [100%] Built target listener_component
+[18.947s] [100%] Built target listener_node
+[18.961s] Invoked command in '/opt/2026_product/family_robot_ws/build/learn_compose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /opt/2026_product/family_robot_ws/build/learn_compose -- -j4 -l4
+[18.964s] Invoking command in '/opt/2026_product/family_robot_ws/build/learn_compose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /opt/2026_product/family_robot_ws/build/learn_compose
+[18.973s] -- Install configuration: ""
+[18.973s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/lib/learn_compose/talker_node
+[18.974s] -- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/lib/learn_compose/listener_node
+[18.981s] -- Set runtime path of "/opt/2026_product/family_robot_ws/install/learn_compose/lib/learn_compose/listener_node" to ""
+[18.981s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/lib/learn_compose/motion_detector_node
+[18.982s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/lib/libtalker_component.so
+[18.982s] -- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/lib/liblistener_component.so
+[18.996s] -- Set runtime path of "/opt/2026_product/family_robot_ws/install/learn_compose/lib/liblistener_component.so" to ""
+[18.996s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/lib/libmotion_detector_component.so
+[18.996s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/include/learn_compose
+[18.997s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/include/learn_compose/learn_compose
+[18.997s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/include/learn_compose/learn_compose/listener.hpp
+[18.997s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/include/learn_compose/learn_compose/motion_detector.hpp
+[18.997s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/include/learn_compose/learn_compose/talker.hpp
+[18.997s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/share/ament_index/resource_index/package_run_dependencies/learn_compose
+[18.998s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/share/ament_index/resource_index/parent_prefix_path/learn_compose
+[18.998s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/environment/ament_prefix_path.sh
+[18.998s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/environment/ament_prefix_path.dsv
+[18.998s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/environment/path.sh
+[18.998s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/environment/path.dsv
+[18.998s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/local_setup.bash
+[18.999s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/local_setup.sh
+[18.999s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/local_setup.zsh
+[18.999s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/local_setup.dsv
+[18.999s] -- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/package.dsv
+[18.999s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/share/ament_index/resource_index/packages/learn_compose
+[19.000s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/share/ament_index/resource_index/rclcpp_components/learn_compose
+[19.000s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/cmake/learn_composeConfig.cmake
+[19.001s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/cmake/learn_composeConfig-version.cmake
+[19.002s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/package.xml
+[19.002s] Invoked command in '/opt/2026_product/family_robot_ws/build/learn_compose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /opt/2026_product/family_robot_ws/build/learn_compose

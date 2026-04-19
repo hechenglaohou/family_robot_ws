@@ -1,0 +1,524 @@
+[0.246s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.247s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa702168c70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa7021686a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa7021686a0>>)
+[0.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.963s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.963s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.963s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.963s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/opt/2026_product/family_robot_ws'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/family_robot_head) by extensions ['ignore', 'ignore_ament_install']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/family_robot_head) by extension 'ignore'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/family_robot_head) by extension 'ignore_ament_install'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/family_robot_head) by extensions ['colcon_pkg']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/family_robot_head) by extension 'colcon_pkg'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/family_robot_head) by extensions ['colcon_meta']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/family_robot_head) by extension 'colcon_meta'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/family_robot_head) by extensions ['ros']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/family_robot_head) by extension 'ros'
+[1.016s] DEBUG:colcon.colcon_core.package_identification:Package 'src/family_robot_head' with type 'ros.ament_cmake' and name 'family_robot_head'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message) by extensions ['ignore', 'ignore_ament_install']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message) by extension 'ignore'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message) by extension 'ignore_ament_install'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message) by extensions ['colcon_pkg']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message) by extension 'colcon_pkg'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message) by extensions ['colcon_meta']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message) by extension 'colcon_meta'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message) by extensions ['ros']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message) by extension 'ros'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message) by extensions ['cmake', 'python']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message) by extension 'cmake'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message) by extension 'python'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message) by extensions ['python_setup_py']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message) by extension 'python_setup_py'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/stock_monitor_node) by extensions ['ignore', 'ignore_ament_install']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/stock_monitor_node) by extension 'ignore'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/stock_monitor_node) by extension 'ignore_ament_install'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/stock_monitor_node) by extensions ['colcon_pkg']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/stock_monitor_node) by extension 'colcon_pkg'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/stock_monitor_node) by extensions ['colcon_meta']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/stock_monitor_node) by extension 'colcon_meta'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/stock_monitor_node) by extensions ['ros']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/stock_monitor_node) by extension 'ros'
+[1.020s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laofu_message/stock_monitor_node' with type 'ros.ament_python' and name 'stock_monitor_node'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/web_wenxun_sender_node) by extensions ['ignore', 'ignore_ament_install']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/web_wenxun_sender_node) by extension 'ignore'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/web_wenxun_sender_node) by extension 'ignore_ament_install'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/web_wenxun_sender_node) by extensions ['colcon_pkg']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/web_wenxun_sender_node) by extension 'colcon_pkg'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/web_wenxun_sender_node) by extensions ['colcon_meta']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/web_wenxun_sender_node) by extension 'colcon_meta'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/web_wenxun_sender_node) by extensions ['ros']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/web_wenxun_sender_node) by extension 'ros'
+[1.023s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laofu_message/web_wenxun_sender_node' with type 'ros.ament_python' and name 'web_wenxun_sender_node'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/wechat_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/wechat_interfaces) by extension 'ignore'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/wechat_interfaces) by extension 'ignore_ament_install'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/wechat_interfaces) by extensions ['colcon_pkg']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/wechat_interfaces) by extension 'colcon_pkg'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/wechat_interfaces) by extensions ['colcon_meta']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/wechat_interfaces) by extension 'colcon_meta'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/wechat_interfaces) by extensions ['ros']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/laofu_message/wechat_interfaces) by extension 'ros'
+[1.025s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laofu_message/wechat_interfaces' with type 'ros.ament_cmake' and name 'wechat_interfaces'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move) by extensions ['ignore', 'ignore_ament_install']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move) by extension 'ignore'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move) by extension 'ignore_ament_install'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move) by extensions ['colcon_pkg']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move) by extension 'colcon_pkg'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move) by extensions ['colcon_meta']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move) by extension 'colcon_meta'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move) by extensions ['ros']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move) by extension 'ros'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move) by extensions ['cmake', 'python']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move) by extension 'cmake'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move) by extension 'python'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move) by extensions ['python_setup_py']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move) by extension 'python_setup_py'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/camera_data) by extensions ['ignore', 'ignore_ament_install']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/camera_data) by extension 'ignore'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/camera_data) by extension 'ignore_ament_install'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/camera_data) by extensions ['colcon_pkg']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/camera_data) by extension 'colcon_pkg'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/camera_data) by extensions ['colcon_meta']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/camera_data) by extension 'colcon_meta'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/camera_data) by extensions ['ros']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/camera_data) by extension 'ros'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/camera_data) by extensions ['cmake', 'python']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/camera_data) by extension 'cmake'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/camera_data) by extension 'python'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/camera_data) by extensions ['python_setup_py']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/camera_data) by extension 'python_setup_py'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/config) by extensions ['ignore', 'ignore_ament_install']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/config) by extension 'ignore'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/config) by extension 'ignore_ament_install'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/config) by extensions ['colcon_pkg']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/config) by extension 'colcon_pkg'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/config) by extensions ['colcon_meta']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/config) by extension 'colcon_meta'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/config) by extensions ['ros']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/config) by extension 'ros'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/config) by extensions ['cmake', 'python']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/config) by extension 'cmake'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/config) by extension 'python'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/config) by extensions ['python_setup_py']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/config) by extension 'python_setup_py'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/face_data) by extensions ['ignore', 'ignore_ament_install']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/face_data) by extension 'ignore'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/face_data) by extension 'ignore_ament_install'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/face_data) by extensions ['colcon_pkg']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/face_data) by extension 'colcon_pkg'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/face_data) by extensions ['colcon_meta']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/face_data) by extension 'colcon_meta'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/face_data) by extensions ['ros']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/face_data) by extension 'ros'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/face_data) by extensions ['cmake', 'python']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/face_data) by extension 'cmake'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/face_data) by extension 'python'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/face_data) by extensions ['python_setup_py']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/face_data) by extension 'python_setup_py'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/learn_compose) by extensions ['ignore', 'ignore_ament_install']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/learn_compose) by extension 'ignore'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/learn_compose) by extension 'ignore_ament_install'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/learn_compose) by extensions ['colcon_pkg']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/learn_compose) by extension 'colcon_pkg'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/learn_compose) by extensions ['colcon_meta']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/learn_compose) by extension 'colcon_meta'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/learn_compose) by extensions ['ros']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/learn_compose) by extension 'ros'
+[1.034s] DEBUG:colcon.colcon_core.package_identification:Package 'src/video_face_move/learn_compose' with type 'ros.ament_cmake' and name 'learn_compose'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/motion_img) by extensions ['ignore', 'ignore_ament_install']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/motion_img) by extension 'ignore'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/motion_img) by extension 'ignore_ament_install'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/motion_img) by extensions ['colcon_pkg']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/motion_img) by extension 'colcon_pkg'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/motion_img) by extensions ['colcon_meta']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/motion_img) by extension 'colcon_meta'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/motion_img) by extensions ['ros']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/motion_img) by extension 'ros'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/motion_img) by extensions ['cmake', 'python']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/motion_img) by extension 'cmake'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/motion_img) by extension 'python'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/motion_img) by extensions ['python_setup_py']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_face_move/motion_img) by extension 'python_setup_py'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros2) by extension 'ignore'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros2) by extension 'ignore_ament_install'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros2) by extensions ['colcon_pkg']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros2) by extension 'colcon_pkg'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros2) by extensions ['colcon_meta']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros2) by extension 'colcon_meta'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros2) by extensions ['ros']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros2) by extension 'ros'
+[1.038s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov8_ros2' with type 'ros.ament_python' and name 'yolov8_ros2'
+[1.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.112s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[1.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'family_robot_head' build argument 'cmake_args' from command line to 'None'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'family_robot_head' build argument 'cmake_target' from command line to 'None'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'family_robot_head' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'family_robot_head' build argument 'cmake_clean_cache' from command line to 'False'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'family_robot_head' build argument 'cmake_clean_first' from command line to 'False'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'family_robot_head' build argument 'cmake_force_configure' from command line to 'False'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'family_robot_head' build argument 'ament_cmake_args' from command line to 'None'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'family_robot_head' build argument 'catkin_cmake_args' from command line to 'None'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'family_robot_head' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.200s] DEBUG:colcon.colcon_core.verb:Building package 'family_robot_head' with the following arguments: {'ament_cmake_args': None, 'build_base': '/opt/2026_product/family_robot_ws/build/family_robot_head', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/opt/2026_product/family_robot_ws/install/family_robot_head', 'merge_install': False, 'path': '/opt/2026_product/family_robot_ws/src/family_robot_head', 'symlink_install': False, 'test_result_base': None}
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'cmake_args' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'cmake_target' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'cmake_clean_cache' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'cmake_clean_first' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'cmake_force_configure' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'ament_cmake_args' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'catkin_cmake_args' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.201s] DEBUG:colcon.colcon_core.verb:Building package 'learn_compose' with the following arguments: {'ament_cmake_args': None, 'build_base': '/opt/2026_product/family_robot_ws/build/learn_compose', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/opt/2026_product/family_robot_ws/install/learn_compose', 'merge_install': False, 'path': '/opt/2026_product/family_robot_ws/src/video_face_move/learn_compose', 'symlink_install': False, 'test_result_base': None}
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'stock_monitor_node' build argument 'cmake_args' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'stock_monitor_node' build argument 'cmake_target' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'stock_monitor_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'stock_monitor_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'stock_monitor_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'stock_monitor_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'stock_monitor_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'stock_monitor_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'stock_monitor_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.203s] DEBUG:colcon.colcon_core.verb:Building package 'stock_monitor_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/opt/2026_product/family_robot_ws/build/stock_monitor_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/opt/2026_product/family_robot_ws/install/stock_monitor_node', 'merge_install': False, 'path': '/opt/2026_product/family_robot_ws/src/laofu_message/stock_monitor_node', 'symlink_install': False, 'test_result_base': None}
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'wechat_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'wechat_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'wechat_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'wechat_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'wechat_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'wechat_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'wechat_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'wechat_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'wechat_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.204s] DEBUG:colcon.colcon_core.verb:Building package 'wechat_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/opt/2026_product/family_robot_ws/build/wechat_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/opt/2026_product/family_robot_ws/install/wechat_interfaces', 'merge_install': False, 'path': '/opt/2026_product/family_robot_ws/src/laofu_message/wechat_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'cmake_target' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.205s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/opt/2026_product/family_robot_ws/build/yolov8_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/opt/2026_product/family_robot_ws/install/yolov8_ros2', 'merge_install': False, 'path': '/opt/2026_product/family_robot_ws/src/yolov8_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'web_wenxun_sender_node' build argument 'cmake_args' from command line to 'None'
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'web_wenxun_sender_node' build argument 'cmake_target' from command line to 'None'
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'web_wenxun_sender_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'web_wenxun_sender_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'web_wenxun_sender_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'web_wenxun_sender_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'web_wenxun_sender_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'web_wenxun_sender_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'web_wenxun_sender_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.207s] DEBUG:colcon.colcon_core.verb:Building package 'web_wenxun_sender_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/opt/2026_product/family_robot_ws/build/web_wenxun_sender_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node', 'merge_install': False, 'path': '/opt/2026_product/family_robot_ws/src/laofu_message/web_wenxun_sender_node', 'symlink_install': False, 'test_result_base': None}
+[1.207s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.208s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.209s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/opt/2026_product/family_robot_ws/src/laofu_message/wechat_interfaces' with build type 'ament_cmake'
+[1.209s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/opt/2026_product/family_robot_ws/src/laofu_message/wechat_interfaces'
+[1.218s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.224s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/opt/2026_product/family_robot_ws/src/family_robot_head' with build type 'ament_cmake'
+[1.224s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/opt/2026_product/family_robot_ws/src/family_robot_head'
+[1.225s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.229s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/opt/2026_product/family_robot_ws/src/video_face_move/learn_compose' with build type 'ament_cmake'
+[1.229s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/opt/2026_product/family_robot_ws/src/video_face_move/learn_compose'
+[1.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.234s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/opt/2026_product/family_robot_ws/src/laofu_message/stock_monitor_node' with build type 'ament_python'
+[1.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('stock_monitor_node', 'ament_prefix_path')
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/stock_monitor_node/share/stock_monitor_node/hook/ament_prefix_path.ps1'
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/opt/2026_product/family_robot_ws/install/stock_monitor_node/share/stock_monitor_node/hook/ament_prefix_path.dsv'
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/stock_monitor_node/share/stock_monitor_node/hook/ament_prefix_path.sh'
+[1.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/opt/2026_product/family_robot_ws/build/wechat_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /opt/2026_product/family_robot_ws/src/laofu_message/wechat_interfaces -DCMAKE_INSTALL_PREFIX=/opt/2026_product/family_robot_ws/install/wechat_interfaces
+[1.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/opt/2026_product/family_robot_ws/build/family_robot_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /opt/2026_product/family_robot_ws/src/family_robot_head -DCMAKE_INSTALL_PREFIX=/opt/2026_product/family_robot_ws/install/family_robot_head
+[1.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/opt/2026_product/family_robot_ws/build/learn_compose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /opt/2026_product/family_robot_ws/src/video_face_move/learn_compose -DCMAKE_INSTALL_PREFIX=/opt/2026_product/family_robot_ws/install/learn_compose
+[1.838s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/opt/2026_product/family_robot_ws/src/laofu_message/stock_monitor_node'
+[1.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.839s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/opt/2026_product/family_robot_ws/src/laofu_message/stock_monitor_node': PYTHONPATH=/opt/2026_product/family_robot_ws/build/stock_monitor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/stock_monitor_node build --build-base /opt/2026_product/family_robot_ws/build/stock_monitor_node/build install --record /opt/2026_product/family_robot_ws/build/stock_monitor_node/install.log --single-version-externally-managed install_data
+[3.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/opt/2026_product/family_robot_ws/src/laofu_message/stock_monitor_node' returned '0': PYTHONPATH=/opt/2026_product/family_robot_ws/build/stock_monitor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/stock_monitor_node build --build-base /opt/2026_product/family_robot_ws/build/stock_monitor_node/build install --record /opt/2026_product/family_robot_ws/build/stock_monitor_node/install.log --single-version-externally-managed install_data
+[3.488s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/stock_monitor_node' for CMake module files
+[3.489s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/stock_monitor_node' for CMake config files
+[3.490s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/stock_monitor_node/lib'
+[3.490s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/stock_monitor_node/bin'
+[3.490s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/pkgconfig/stock_monitor_node.pc'
+[3.490s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages'
+[3.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('stock_monitor_node', 'pythonpath')
+[3.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/stock_monitor_node/share/stock_monitor_node/hook/pythonpath.ps1'
+[3.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/opt/2026_product/family_robot_ws/install/stock_monitor_node/share/stock_monitor_node/hook/pythonpath.dsv'
+[3.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/stock_monitor_node/share/stock_monitor_node/hook/pythonpath.sh'
+[3.493s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/stock_monitor_node/bin'
+[3.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stock_monitor_node)
+[3.494s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/stock_monitor_node/share/stock_monitor_node/package.ps1'
+[3.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/opt/2026_product/family_robot_ws/install/stock_monitor_node/share/stock_monitor_node/package.dsv'
+[3.497s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/stock_monitor_node/share/stock_monitor_node/package.sh'
+[3.499s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/stock_monitor_node/share/stock_monitor_node/package.bash'
+[3.501s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/stock_monitor_node/share/stock_monitor_node/package.zsh'
+[3.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/opt/2026_product/family_robot_ws/install/stock_monitor_node/share/colcon-core/packages/stock_monitor_node)
+[3.504s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/opt/2026_product/family_robot_ws/src/yolov8_ros2' with build type 'ament_python'
+[3.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_ros2', 'ament_prefix_path')
+[3.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/yolov8_ros2/share/yolov8_ros2/hook/ament_prefix_path.ps1'
+[3.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/opt/2026_product/family_robot_ws/install/yolov8_ros2/share/yolov8_ros2/hook/ament_prefix_path.dsv'
+[3.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/yolov8_ros2/share/yolov8_ros2/hook/ament_prefix_path.sh'
+[3.506s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.506s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.095s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/opt/2026_product/family_robot_ws/src/yolov8_ros2'
+[4.096s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.096s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/opt/2026_product/family_robot_ws/src/yolov8_ros2': PYTHONPATH=/opt/2026_product/family_robot_ws/build/yolov8_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_ros2 build --build-base /opt/2026_product/family_robot_ws/build/yolov8_ros2/build install --record /opt/2026_product/family_robot_ws/build/yolov8_ros2/install.log --single-version-externally-managed install_data
+[5.510s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/yolov8_ros2' for CMake module files
+[5.511s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/yolov8_ros2' for CMake config files
+[5.512s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/yolov8_ros2/lib'
+[5.512s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/yolov8_ros2/bin'
+[5.512s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/pkgconfig/yolov8_ros2.pc'
+[5.513s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages'
+[5.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_ros2', 'pythonpath')
+[5.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/yolov8_ros2/share/yolov8_ros2/hook/pythonpath.ps1'
+[5.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/opt/2026_product/family_robot_ws/install/yolov8_ros2/share/yolov8_ros2/hook/pythonpath.dsv'
+[5.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/yolov8_ros2/share/yolov8_ros2/hook/pythonpath.sh'
+[5.516s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/yolov8_ros2/bin'
+[5.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_ros2)
+[5.517s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/yolov8_ros2/share/yolov8_ros2/package.ps1'
+[5.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/opt/2026_product/family_robot_ws/src/yolov8_ros2' returned '0': PYTHONPATH=/opt/2026_product/family_robot_ws/build/yolov8_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_ros2 build --build-base /opt/2026_product/family_robot_ws/build/yolov8_ros2/build install --record /opt/2026_product/family_robot_ws/build/yolov8_ros2/install.log --single-version-externally-managed install_data
+[5.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/opt/2026_product/family_robot_ws/install/yolov8_ros2/share/yolov8_ros2/package.dsv'
+[5.521s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/yolov8_ros2/share/yolov8_ros2/package.sh'
+[5.522s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/yolov8_ros2/share/yolov8_ros2/package.bash'
+[5.523s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/yolov8_ros2/share/yolov8_ros2/package.zsh'
+[5.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/opt/2026_product/family_robot_ws/install/yolov8_ros2/share/colcon-core/packages/yolov8_ros2)
+[5.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/opt/2026_product/family_robot_ws/build/family_robot_head' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /opt/2026_product/family_robot_ws/src/family_robot_head -DCMAKE_INSTALL_PREFIX=/opt/2026_product/family_robot_ws/install/family_robot_head
+[5.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/opt/2026_product/family_robot_ws/build/family_robot_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /opt/2026_product/family_robot_ws/build/family_robot_head -- -j4 -l4
+[5.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/opt/2026_product/family_robot_ws/build/learn_compose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /opt/2026_product/family_robot_ws/src/video_face_move/learn_compose -DCMAKE_INSTALL_PREFIX=/opt/2026_product/family_robot_ws/install/learn_compose
+[5.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/opt/2026_product/family_robot_ws/build/learn_compose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /opt/2026_product/family_robot_ws/build/learn_compose -- -j4 -l4
+[7.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/opt/2026_product/family_robot_ws/build/wechat_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /opt/2026_product/family_robot_ws/src/laofu_message/wechat_interfaces -DCMAKE_INSTALL_PREFIX=/opt/2026_product/family_robot_ws/install/wechat_interfaces
+[7.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/opt/2026_product/family_robot_ws/build/wechat_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /opt/2026_product/family_robot_ws/build/wechat_interfaces -- -j4 -l4
+[17.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/opt/2026_product/family_robot_ws/build/wechat_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /opt/2026_product/family_robot_ws/build/wechat_interfaces -- -j4 -l4
+[17.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/opt/2026_product/family_robot_ws/build/wechat_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /opt/2026_product/family_robot_ws/build/wechat_interfaces
+[17.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wechat_interfaces)
+[17.731s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/wechat_interfaces' for CMake module files
+[17.732s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/wechat_interfaces' for CMake config files
+[17.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('wechat_interfaces', 'cmake_prefix_path')
+[17.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/hook/cmake_prefix_path.ps1'
+[17.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/hook/cmake_prefix_path.dsv'
+[17.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/hook/cmake_prefix_path.sh'
+[17.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/opt/2026_product/family_robot_ws/build/wechat_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /opt/2026_product/family_robot_ws/build/wechat_interfaces
+[17.737s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib'
+[17.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('wechat_interfaces', 'ld_library_path_lib')
+[17.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/hook/ld_library_path_lib.ps1'
+[17.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/hook/ld_library_path_lib.dsv'
+[17.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/hook/ld_library_path_lib.sh'
+[17.739s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/wechat_interfaces/bin'
+[17.739s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/pkgconfig/wechat_interfaces.pc'
+[17.739s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/python3.10/site-packages'
+[17.740s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/wechat_interfaces/bin'
+[17.741s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/package.ps1'
+[17.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/package.dsv'
+[17.742s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/package.sh'
+[17.743s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/package.bash'
+[17.744s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/package.zsh'
+[17.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/colcon-core/packages/wechat_interfaces)
+[17.745s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wechat_interfaces)
+[17.746s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/wechat_interfaces' for CMake module files
+[17.747s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/wechat_interfaces' for CMake config files
+[17.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('wechat_interfaces', 'cmake_prefix_path')
+[17.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/hook/cmake_prefix_path.ps1'
+[17.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/hook/cmake_prefix_path.dsv'
+[17.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/hook/cmake_prefix_path.sh'
+[17.751s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib'
+[17.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('wechat_interfaces', 'ld_library_path_lib')
+[17.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/hook/ld_library_path_lib.ps1'
+[17.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/hook/ld_library_path_lib.dsv'
+[17.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/hook/ld_library_path_lib.sh'
+[17.754s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/wechat_interfaces/bin'
+[17.754s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/pkgconfig/wechat_interfaces.pc'
+[17.755s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/python3.10/site-packages'
+[17.755s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/wechat_interfaces/bin'
+[17.756s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/package.ps1'
+[17.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/package.dsv'
+[17.758s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/package.sh'
+[17.760s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/package.bash'
+[17.760s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/package.zsh'
+[17.761s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/opt/2026_product/family_robot_ws/install/wechat_interfaces/share/colcon-core/packages/wechat_interfaces)
+[17.763s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/opt/2026_product/family_robot_ws/src/laofu_message/web_wenxun_sender_node' with build type 'ament_python'
+[17.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_wenxun_sender_node', 'ament_prefix_path')
+[17.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/web_wenxun_sender_node/hook/ament_prefix_path.ps1'
+[17.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/web_wenxun_sender_node/hook/ament_prefix_path.dsv'
+[17.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/web_wenxun_sender_node/hook/ament_prefix_path.sh'
+[17.766s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.766s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.040s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/opt/2026_product/family_robot_ws/src/laofu_message/web_wenxun_sender_node'
+[19.041s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.041s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/opt/2026_product/family_robot_ws/src/laofu_message/web_wenxun_sender_node': AMENT_PREFIX_PATH=/opt/2026_product/family_robot_ws/install/wechat_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/2026_product/family_robot_ws/install/wechat_interfaces LD_LIBRARY_PATH=/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages:/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/web_wenxun_sender_node build --build-base /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build install --record /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/install.log --single-version-externally-managed install_data
+[21.447s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node' for CMake module files
+[21.448s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node' for CMake config files
+[21.449s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib'
+[21.449s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/bin'
+[21.449s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/pkgconfig/web_wenxun_sender_node.pc'
+[21.450s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages'
+[21.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_wenxun_sender_node', 'pythonpath')
+[21.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/web_wenxun_sender_node/hook/pythonpath.ps1'
+[21.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/opt/2026_product/family_robot_ws/src/laofu_message/web_wenxun_sender_node' returned '0': AMENT_PREFIX_PATH=/opt/2026_product/family_robot_ws/install/wechat_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/2026_product/family_robot_ws/install/wechat_interfaces LD_LIBRARY_PATH=/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages:/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/web_wenxun_sender_node build --build-base /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build install --record /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/install.log --single-version-externally-managed install_data
+[21.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/web_wenxun_sender_node/hook/pythonpath.dsv'
+[21.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/web_wenxun_sender_node/hook/pythonpath.sh'
+[21.454s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/bin'
+[21.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(web_wenxun_sender_node)
+[21.455s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/web_wenxun_sender_node/package.ps1'
+[21.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/web_wenxun_sender_node/package.dsv'
+[21.457s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/web_wenxun_sender_node/package.sh'
+[21.457s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/web_wenxun_sender_node/package.bash'
+[21.458s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/web_wenxun_sender_node/package.zsh'
+[21.458s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/colcon-core/packages/web_wenxun_sender_node)
+[38.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/opt/2026_product/family_robot_ws/build/family_robot_head' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /opt/2026_product/family_robot_ws/build/family_robot_head -- -j4 -l4
+[38.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/opt/2026_product/family_robot_ws/build/family_robot_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /opt/2026_product/family_robot_ws/build/family_robot_head
+[38.683s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(family_robot_head)
+[38.684s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/family_robot_head' for CMake module files
+[38.685s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/family_robot_head' for CMake config files
+[38.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('family_robot_head', 'cmake_prefix_path')
+[38.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/hook/cmake_prefix_path.ps1'
+[38.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/hook/cmake_prefix_path.dsv'
+[38.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/hook/cmake_prefix_path.sh'
+[38.688s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/family_robot_head/lib'
+[38.688s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/family_robot_head/bin'
+[38.688s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/family_robot_head/lib/pkgconfig/family_robot_head.pc'
+[38.688s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/family_robot_head/lib/python3.10/site-packages'
+[38.689s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/family_robot_head/bin'
+[38.690s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/package.ps1'
+[38.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/package.dsv'
+[38.691s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/package.sh'
+[38.692s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/package.bash'
+[38.692s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/package.zsh'
+[38.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/opt/2026_product/family_robot_ws/install/family_robot_head/share/colcon-core/packages/family_robot_head)
+[38.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(family_robot_head)
+[38.694s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/family_robot_head' for CMake module files
+[38.695s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/family_robot_head' for CMake config files
+[38.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/opt/2026_product/family_robot_ws/build/family_robot_head' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /opt/2026_product/family_robot_ws/build/family_robot_head
+[38.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('family_robot_head', 'cmake_prefix_path')
+[38.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/hook/cmake_prefix_path.ps1'
+[38.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/hook/cmake_prefix_path.dsv'
+[38.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/hook/cmake_prefix_path.sh'
+[38.702s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/family_robot_head/lib'
+[38.702s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/family_robot_head/bin'
+[38.702s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/family_robot_head/lib/pkgconfig/family_robot_head.pc'
+[38.703s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/family_robot_head/lib/python3.10/site-packages'
+[38.703s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/family_robot_head/bin'
+[38.704s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/package.ps1'
+[38.705s] INFO:colcon.colcon_core.shell:Creating package descriptor '/opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/package.dsv'
+[38.706s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/package.sh'
+[38.707s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/package.bash'
+[38.708s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/package.zsh'
+[38.708s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/opt/2026_product/family_robot_ws/install/family_robot_head/share/colcon-core/packages/family_robot_head)
+[46.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/opt/2026_product/family_robot_ws/build/learn_compose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /opt/2026_product/family_robot_ws/build/learn_compose -- -j4 -l4
+[46.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/opt/2026_product/family_robot_ws/build/learn_compose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /opt/2026_product/family_robot_ws/build/learn_compose
+[46.286s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_compose)
+[46.286s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/learn_compose' for CMake module files
+[46.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/opt/2026_product/family_robot_ws/build/learn_compose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /opt/2026_product/family_robot_ws/build/learn_compose
+[46.288s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/learn_compose' for CMake config files
+[46.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_compose', 'cmake_prefix_path')
+[46.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/hook/cmake_prefix_path.ps1'
+[46.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/hook/cmake_prefix_path.dsv'
+[46.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/hook/cmake_prefix_path.sh'
+[46.291s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/learn_compose/lib'
+[46.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_compose', 'ld_library_path_lib')
+[46.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/hook/ld_library_path_lib.ps1'
+[46.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/hook/ld_library_path_lib.dsv'
+[46.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/hook/ld_library_path_lib.sh'
+[46.293s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/learn_compose/bin'
+[46.293s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/learn_compose/lib/pkgconfig/learn_compose.pc'
+[46.293s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/learn_compose/lib/python3.10/site-packages'
+[46.294s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/learn_compose/bin'
+[46.295s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/package.ps1'
+[46.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/package.dsv'
+[46.296s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/package.sh'
+[46.297s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/package.bash'
+[46.297s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/package.zsh'
+[46.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/opt/2026_product/family_robot_ws/install/learn_compose/share/colcon-core/packages/learn_compose)
+[46.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_compose)
+[46.299s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/learn_compose' for CMake module files
+[46.300s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/learn_compose' for CMake config files
+[46.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_compose', 'cmake_prefix_path')
+[46.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/hook/cmake_prefix_path.ps1'
+[46.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/hook/cmake_prefix_path.dsv'
+[46.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/hook/cmake_prefix_path.sh'
+[46.303s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/learn_compose/lib'
+[46.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_compose', 'ld_library_path_lib')
+[46.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/hook/ld_library_path_lib.ps1'
+[46.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/hook/ld_library_path_lib.dsv'
+[46.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/hook/ld_library_path_lib.sh'
+[46.306s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/learn_compose/bin'
+[46.306s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/learn_compose/lib/pkgconfig/learn_compose.pc'
+[46.306s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/learn_compose/lib/python3.10/site-packages'
+[46.307s] Level 1:colcon.colcon_core.environment:checking '/opt/2026_product/family_robot_ws/install/learn_compose/bin'
+[46.307s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/package.ps1'
+[46.308s] INFO:colcon.colcon_core.shell:Creating package descriptor '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/package.dsv'
+[46.309s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/package.sh'
+[46.310s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/package.bash'
+[46.311s] INFO:colcon.colcon_core.shell:Creating package script '/opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/package.zsh'
+[46.311s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/opt/2026_product/family_robot_ws/install/learn_compose/share/colcon-core/packages/learn_compose)
+[46.312s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[46.312s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[46.312s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[46.312s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[46.323s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[46.323s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[46.324s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[46.397s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[46.398s] INFO:colcon.colcon_core.shell:Creating prefix script '/opt/2026_product/family_robot_ws/install/local_setup.ps1'
+[46.400s] INFO:colcon.colcon_core.shell:Creating prefix util module '/opt/2026_product/family_robot_ws/install/_local_setup_util_ps1.py'
+[46.403s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/opt/2026_product/family_robot_ws/install/setup.ps1'
+[46.405s] INFO:colcon.colcon_core.shell:Creating prefix script '/opt/2026_product/family_robot_ws/install/local_setup.sh'
+[46.407s] INFO:colcon.colcon_core.shell:Creating prefix util module '/opt/2026_product/family_robot_ws/install/_local_setup_util_sh.py'
+[46.408s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/opt/2026_product/family_robot_ws/install/setup.sh'
+[46.409s] INFO:colcon.colcon_core.shell:Creating prefix script '/opt/2026_product/family_robot_ws/install/local_setup.bash'
+[46.411s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/opt/2026_product/family_robot_ws/install/setup.bash'
+[46.412s] INFO:colcon.colcon_core.shell:Creating prefix script '/opt/2026_product/family_robot_ws/install/local_setup.zsh'
+[46.413s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/opt/2026_product/family_robot_ws/install/setup.zsh'

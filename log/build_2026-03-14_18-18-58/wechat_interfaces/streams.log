@@ -1,0 +1,231 @@
+[0.039s] Invoking command in '/opt/2026_product/family_robot_ws/build/wechat_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /opt/2026_product/family_robot_ws/src/laofu_message/wechat_interfaces -DCMAKE_INSTALL_PREFIX=/opt/2026_product/family_robot_ws/install/wechat_interfaces
+[0.684s] -- The C compiler identification is GNU 11.4.0
+[1.349s] -- The CXX compiler identification is GNU 11.4.0
+[1.382s] -- Detecting C compiler ABI info
+[1.553s] -- Detecting C compiler ABI info - done
+[1.569s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.570s] -- Detecting C compile features
+[1.571s] -- Detecting C compile features - done
+[1.577s] -- Detecting CXX compiler ABI info
+[1.718s] -- Detecting CXX compiler ABI info - done
+[1.737s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.739s] -- Detecting CXX compile features
+[1.741s] -- Detecting CXX compile features - done
+[1.749s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.000s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.181s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.192s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.209s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.306s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.381s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.096s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.573s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.617s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.630s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.704s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.704s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.704s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.704s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.746s] -- Found PythonExtra: .so  
+[5.916s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.980s] -- Added test 'lint_cmake' to check CMake code style
+[5.982s] -- Added test 'xmllint' to check XML markup files
+[5.986s] -- Configuring done
+[6.049s] -- Generating done
+[6.071s] -- Build files have been written to: /opt/2026_product/family_robot_ws/build/wechat_interfaces
+[6.098s] Invoked command in '/opt/2026_product/family_robot_ws/build/wechat_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /opt/2026_product/family_robot_ws/src/laofu_message/wechat_interfaces -DCMAKE_INSTALL_PREFIX=/opt/2026_product/family_robot_ws/install/wechat_interfaces
+[6.099s] Invoking command in '/opt/2026_product/family_robot_ws/build/wechat_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /opt/2026_product/family_robot_ws/build/wechat_interfaces -- -j4 -l4
+[6.262s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.320s] [  3%] Built target ament_cmake_python_copy_wechat_interfaces
+[6.342s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.442s] running egg_info
+[7.444s] creating wechat_interfaces.egg-info
+[7.445s] writing manifest file 'wechat_interfaces.egg-info/SOURCES.txt'
+[7.460s] writing manifest file 'wechat_interfaces.egg-info/SOURCES.txt'
+[7.461s] [  6%] Built target wechat_interfaces__cpp
+[7.482s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.525s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.591s] [ 12%] Built target ament_cmake_python_build_wechat_interfaces_egg
+[7.621s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.747s] [ 19%] [32mBuilding C object CMakeFiles/wechat_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wechat_interfaces/srv/detail/we_chat_message__functions.c.o[0m
+[8.006s] [ 22%] [32m[1mLinking C shared library libwechat_interfaces__rosidl_generator_c.so[0m
+[8.176s] [ 22%] Built target wechat_interfaces__rosidl_generator_c
+[8.218s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.547s] [ 29%] [32mBuilding CXX object CMakeFiles/wechat_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wechat_interfaces/srv/we_chat_message__type_support.cpp.o[0m
+[8.932s] [ 32%] [32mBuilding CXX object CMakeFiles/wechat_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wechat_interfaces/srv/detail/dds_fastrtps/we_chat_message__type_support.cpp.o[0m
+[8.987s] [ 35%] [32mBuilding CXX object CMakeFiles/wechat_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wechat_interfaces/srv/detail/we_chat_message__type_support.cpp.o[0m
+[9.919s] [ 38%] [32mBuilding CXX object CMakeFiles/wechat_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wechat_interfaces/srv/detail/we_chat_message__type_support_c.cpp.o[0m
+[9.931s] [ 41%] [32m[1mLinking CXX shared library libwechat_interfaces__rosidl_typesupport_cpp.so[0m
+[10.148s] [ 41%] Built target wechat_interfaces__rosidl_typesupport_cpp
+[10.239s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.011s] [ 48%] [32m[1mLinking CXX shared library libwechat_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.011s] [ 51%] [32m[1mLinking CXX shared library libwechat_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[11.266s] [ 51%] Built target wechat_interfaces__rosidl_typesupport_introspection_cpp
+[11.269s] [ 51%] Built target wechat_interfaces__rosidl_typesupport_fastrtps_cpp
+[11.283s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.649s] [ 58%] [32m[1mLinking CXX shared library libwechat_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[11.908s] [ 61%] [32mBuilding C object CMakeFiles/wechat_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wechat_interfaces/srv/detail/we_chat_message__type_support.c.o[0m
+[12.065s] [ 61%] Built target wechat_interfaces__rosidl_typesupport_fastrtps_c
+[12.090s] [ 64%] [32m[1mLinking C shared library libwechat_interfaces__rosidl_typesupport_introspection_c.so[0m
+[12.273s] [ 64%] Built target wechat_interfaces__rosidl_typesupport_introspection_c
+[12.457s] [ 67%] [32mBuilding CXX object CMakeFiles/wechat_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wechat_interfaces/srv/we_chat_message__type_support.cpp.o[0m
+[12.617s] [ 70%] [32m[1mLinking CXX shared library libwechat_interfaces__rosidl_typesupport_c.so[0m
+[12.811s] [ 70%] Built target wechat_interfaces__rosidl_typesupport_c
+[12.934s] [ 70%] Built target wechat_interfaces
+[13.031s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.592s] [ 74%] Built target wechat_interfaces__py
+[14.711s] [ 77%] [32mBuilding C object CMakeFiles/wechat_interfaces__rosidl_generator_py.dir/rosidl_generator_py/wechat_interfaces/srv/_we_chat_message_s.c.o[0m
+[15.213s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/wechat_interfaces/libwechat_interfaces__rosidl_generator_py.so[0m
+[15.400s] [ 80%] Built target wechat_interfaces__rosidl_generator_py
+[15.517s] [ 83%] [32mBuilding C object CMakeFiles/wechat_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wechat_interfaces/_wechat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.559s] [ 87%] [32mBuilding C object CMakeFiles/wechat_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wechat_interfaces/_wechat_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.560s] [ 90%] [32mBuilding C object CMakeFiles/wechat_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wechat_interfaces/_wechat_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[15.935s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.959s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.025s] [100%] [32m[1mLinking C shared library rosidl_generator_py/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.144s] [100%] Built target wechat_interfaces__rosidl_typesupport_c__pyext
+[16.149s] [100%] Built target wechat_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[16.211s] [100%] Built target wechat_interfaces__rosidl_typesupport_introspection_c__pyext
+[16.254s] Invoked command in '/opt/2026_product/family_robot_ws/build/wechat_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /opt/2026_product/family_robot_ws/build/wechat_interfaces -- -j4 -l4
+[16.290s] Invoking command in '/opt/2026_product/family_robot_ws/build/wechat_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /opt/2026_product/family_robot_ws/build/wechat_interfaces
+[16.311s] -- Install configuration: ""
+[16.312s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/ament_index/resource_index/rosidl_interfaces/wechat_interfaces
+[16.312s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces
+[16.312s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv
+[16.312s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/we_chat_message.h
+[16.312s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail
+[16.313s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__functions.h
+[16.313s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__struct.h
+[16.313s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__type_support.h
+[16.313s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__functions.c
+[16.313s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg
+[16.314s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg/rosidl_generator_c__visibility_control.h
+[16.314s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/environment/library_path.sh
+[16.314s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/environment/library_path.dsv
+[16.314s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_generator_c.so
+[16.315s] -- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_generator_c.so" to ""
+[16.315s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces
+[16.315s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv
+[16.315s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail
+[16.316s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__rosidl_typesupport_fastrtps_c.h
+[16.316s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg
+[16.316s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.326s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_fastrtps_c.so
+[16.326s] -- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[16.327s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces
+[16.327s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv
+[16.327s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail
+[16.327s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__rosidl_typesupport_introspection_c.h
+[16.327s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__type_support.c
+[16.327s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg
+[16.328s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.328s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_introspection_c.so
+[16.328s] -- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[16.328s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_c.so
+[16.329s] -- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_c.so" to ""
+[16.329s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces
+[16.329s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv
+[16.329s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/we_chat_message.hpp
+[16.329s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail
+[16.330s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__traits.hpp
+[16.330s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__builder.hpp
+[16.330s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__struct.hpp
+[16.330s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__type_support.hpp
+[16.330s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg
+[16.330s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.331s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces
+[16.331s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv
+[16.331s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail
+[16.331s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/dds_fastrtps
+[16.331s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__rosidl_typesupport_fastrtps_cpp.hpp
+[16.332s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg
+[16.332s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.332s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[16.332s] -- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.333s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces
+[16.333s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv
+[16.333s] -- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail
+[16.333s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__rosidl_typesupport_introspection_cpp.hpp
+[16.333s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__type_support.cpp
+[16.333s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_introspection_cpp.so
+[16.334s] -- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[16.334s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_cpp.so
+[16.334s] -- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_cpp.so" to ""
+[16.334s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/environment/pythonpath.sh
+[16.335s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/environment/pythonpath.dsv
+[16.335s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces-0.0.0-py3.10.egg-info
+[16.335s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[16.335s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[16.336s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[16.336s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[16.336s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces
+[16.336s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/srv
+[16.336s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/srv/_we_chat_message.py
+[16.343s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/srv/__init__.py
+[16.343s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/srv/_we_chat_message_s.c
+[16.343s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/_wechat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.344s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.344s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/_wechat_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[16.344s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/__init__.py
+[16.344s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/_wechat_interfaces_s.ep.rosidl_typesupport_c.c
+[16.345s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.345s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/libwechat_interfaces__rosidl_generator_py.so
+[16.345s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.469s] Listing '/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces'...
+[16.470s] Compiling '/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/__init__.py'...
+[16.470s] Listing '/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/srv'...
+[16.470s] Compiling '/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/srv/__init__.py'...
+[16.470s] Compiling '/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/srv/_we_chat_message.py'...
+[16.492s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.492s] -- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.492s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.493s] -- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.493s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.494s] -- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.494s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_generator_py.so
+[16.494s] -- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_generator_py.so" to ""
+[16.495s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/srv/WeChatMessage.idl
+[16.495s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/srv/WeChatMessage.srv
+[16.495s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/srv/WeChatMessage_Request.msg
+[16.495s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/srv/WeChatMessage_Response.msg
+[16.496s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/ament_index/resource_index/package_run_dependencies/wechat_interfaces
+[16.499s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/ament_index/resource_index/parent_prefix_path/wechat_interfaces
+[16.499s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/environment/ament_prefix_path.sh
+[16.499s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/environment/ament_prefix_path.dsv
+[16.499s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/environment/path.sh
+[16.499s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/environment/path.dsv
+[16.500s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/local_setup.bash
+[16.500s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/local_setup.sh
+[16.500s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/local_setup.zsh
+[16.500s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/local_setup.dsv
+[16.501s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/package.dsv
+[16.501s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/ament_index/resource_index/packages/wechat_interfaces
+[16.501s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_generator_cExport.cmake
+[16.501s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_generator_cExport-noconfig.cmake
+[16.508s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[16.508s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.509s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[16.509s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.509s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfaces__rosidl_typesupport_cExport.cmake
+[16.509s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[16.510s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_generator_cppExport.cmake
+[16.510s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.510s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.510s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[16.511s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.511s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfaces__rosidl_typesupport_cppExport.cmake
+[16.511s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[16.511s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_generator_pyExport.cmake
+[16.512s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[16.512s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/rosidl_cmake-extras.cmake
+[16.512s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.512s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.513s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[16.513s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[16.513s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.513s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.514s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfacesConfig.cmake
+[16.518s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfacesConfig-version.cmake
+[16.518s] -- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/package.xml
+[16.526s] Invoked command in '/opt/2026_product/family_robot_ws/build/wechat_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /opt/2026_product/family_robot_ws/build/wechat_interfaces

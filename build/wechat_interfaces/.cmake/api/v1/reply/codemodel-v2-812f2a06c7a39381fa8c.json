@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-206fe05735cd49317f42.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "wechat_interfaces__py",
+					"jsonFile" : "directory-wechat_interfaces__py-41c9c3b1c1f9d3299e91.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/opt/2026_product/family_robot_ws/build/wechat_interfaces/wechat_interfaces__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "wechat_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_wechat_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_wechat_interfaces_egg-16dd171f553807ba71ee.json",
+					"name" : "ament_cmake_python_build_wechat_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_wechat_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_wechat_interfaces-a281621a06f8019121f7.json",
+					"name" : "ament_cmake_python_copy_wechat_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d733b8b3617ab0c990d9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wechat_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wechat_interfaces-69252cc7bb3234c54513.json",
+					"name" : "wechat_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wechat_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wechat_interfaces__cpp-3c8846e45ffad3d43e2f.json",
+					"name" : "wechat_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "wechat_interfaces__py::@93406a20e127d622a1c7",
+					"jsonFile" : "target-wechat_interfaces__py-4712cc36828194293ec0.json",
+					"name" : "wechat_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wechat_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wechat_interfaces__rosidl_generator_c-8ecbbaee9c1ee4868db0.json",
+					"name" : "wechat_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wechat_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wechat_interfaces__rosidl_generator_py-e81f960d7dad5cea2be6.json",
+					"name" : "wechat_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wechat_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wechat_interfaces__rosidl_typesupport_c-51a5b61cb4c8365df604.json",
+					"name" : "wechat_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wechat_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wechat_interfaces__rosidl_typesupport_c__pyext-b880e9637158dc3e613a.json",
+					"name" : "wechat_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wechat_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wechat_interfaces__rosidl_typesupport_cpp-aede3e14a39bc15432dc.json",
+					"name" : "wechat_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wechat_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wechat_interfaces__rosidl_typesupport_fastrtps_c-b3b5be42b0ae00f16b61.json",
+					"name" : "wechat_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wechat_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wechat_interfaces__rosidl_typesupport_fastrtps_c__pyext-a63330eb805a956b92b2.json",
+					"name" : "wechat_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wechat_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wechat_interfaces__rosidl_typesupport_fastrtps_cpp-24994aa8f91db52a4544.json",
+					"name" : "wechat_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wechat_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wechat_interfaces__rosidl_typesupport_introspection_c-4693690e58d1848018d1.json",
+					"name" : "wechat_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wechat_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wechat_interfaces__rosidl_typesupport_introspection_c__pyext-634e26a499c76d221fc8.json",
+					"name" : "wechat_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wechat_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wechat_interfaces__rosidl_typesupport_introspection_cpp-0c3ecf0ca99e79d89e29.json",
+					"name" : "wechat_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wechat_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wechat_interfaces_uninstall-1fe00cbf9854deb77186.json",
+					"name" : "wechat_interfaces_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/opt/2026_product/family_robot_ws/build/wechat_interfaces",
+		"source" : "/opt/2026_product/family_robot_ws/src/laofu_message/wechat_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

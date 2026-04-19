@@ -1,0 +1,3 @@
+[console_scripts]
+stock_monitor = stock_monitor_node.stock_monitor:main
+

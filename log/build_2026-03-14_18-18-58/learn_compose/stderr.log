@@ -1,0 +1,5 @@
+[33mCMake Warning at CMakeLists.txt:41 (message):
+  
+  根目录Config未找到：/home/hhc/family_robot_ws/src/video_face_move/config，运行时会自动创建
+
+[0m

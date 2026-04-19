@@ -1,0 +1,77 @@
+[0.031s] Invoking command in '/opt/2026_product/family_robot_ws/build/family_robot_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /opt/2026_product/family_robot_ws/src/family_robot_head -DCMAKE_INSTALL_PREFIX=/opt/2026_product/family_robot_ws/install/family_robot_head
+[0.667s] -- The C compiler identification is GNU 11.4.0
+[1.333s] -- The CXX compiler identification is GNU 11.4.0
+[1.366s] -- Detecting C compiler ABI info
+[1.523s] -- Detecting C compiler ABI info - done
+[1.538s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.539s] -- Detecting C compile features
+[1.541s] -- Detecting C compile features - done
+[1.548s] -- Detecting CXX compiler ABI info
+[1.703s] -- Detecting CXX compiler ABI info - done
+[1.718s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.719s] -- Detecting CXX compile features
+[1.720s] -- Detecting CXX compile features - done
+[1.734s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.985s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.165s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[3.264s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.272s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.288s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.327s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.456s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.465s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.614s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.657s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.716s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.744s] -- Looking for pthread.h
+[3.883s] -- Looking for pthread.h - found
+[3.884s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.007s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.009s] -- Found Threads: TRUE  
+[4.120s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.183s] -- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+[4.189s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.343s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.345s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.345s] -- Configured cppcheck include dirs: /opt/2026_product/family_robot_ws/src/family_robot_head/include
+[4.346s] -- Configured cppcheck exclude dirs and/or files: 
+[4.348s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.348s] -- Configured cpplint exclude dirs and/or files: 
+[4.349s] -- Added test 'lint_cmake' to check CMake code style
+[4.352s] -- Added test 'uncrustify' to check C / C++ code style
+[4.352s] -- Configured uncrustify additional arguments: 
+[4.353s] -- Added test 'xmllint' to check XML markup files
+[4.356s] -- Configuring done
+[4.372s] -- Generating done
+[4.378s] -- Build files have been written to: /opt/2026_product/family_robot_ws/build/family_robot_head
+[4.394s] Invoked command in '/opt/2026_product/family_robot_ws/build/family_robot_head' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /opt/2026_product/family_robot_ws/src/family_robot_head -DCMAKE_INSTALL_PREFIX=/opt/2026_product/family_robot_ws/install/family_robot_head
+[4.394s] Invoking command in '/opt/2026_product/family_robot_ws/build/family_robot_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /opt/2026_product/family_robot_ws/build/family_robot_head -- -j4 -l4
+[4.459s] [ 50%] [32mBuilding CXX object CMakeFiles/head_node.dir/src/head_node.cpp.o[0m
+[36.450s] [100%] [32m[1mLinking CXX executable head_node[0m
+[37.415s] [100%] Built target head_node
+[37.430s] Invoked command in '/opt/2026_product/family_robot_ws/build/family_robot_head' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /opt/2026_product/family_robot_ws/build/family_robot_head -- -j4 -l4
+[37.432s] Invoking command in '/opt/2026_product/family_robot_ws/build/family_robot_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /opt/2026_product/family_robot_ws/build/family_robot_head
+[37.441s] -- Install configuration: ""
+[37.442s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/lib/family_robot_head/head_node
+[37.451s] -- Set runtime path of "/opt/2026_product/family_robot_ws/install/family_robot_head/lib/family_robot_head/head_node" to ""
+[37.451s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/include/
+[37.451s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/include//family_robot_head
+[37.451s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/include//family_robot_head/head_node.hpp
+[37.452s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/include//family_robot_head/head_node（复件）.hpp
+[37.452s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/ament_index/resource_index/package_run_dependencies/family_robot_head
+[37.453s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/ament_index/resource_index/parent_prefix_path/family_robot_head
+[37.453s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/environment/ament_prefix_path.sh
+[37.453s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/environment/ament_prefix_path.dsv
+[37.453s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/environment/path.sh
+[37.454s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/environment/path.dsv
+[37.454s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/local_setup.bash
+[37.454s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/local_setup.sh
+[37.454s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/local_setup.zsh
+[37.454s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/local_setup.dsv
+[37.455s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/package.dsv
+[37.455s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/ament_index/resource_index/packages/family_robot_head
+[37.455s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/cmake/family_robot_headConfig.cmake
+[37.455s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/cmake/family_robot_headConfig-version.cmake
+[37.456s] -- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/package.xml
+[37.470s] Invoked command in '/opt/2026_product/family_robot_ws/build/family_robot_head' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /opt/2026_product/family_robot_ws/build/family_robot_head

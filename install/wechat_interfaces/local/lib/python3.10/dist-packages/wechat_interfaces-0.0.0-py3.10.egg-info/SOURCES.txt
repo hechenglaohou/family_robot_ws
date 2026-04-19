@@ -1,0 +1,8 @@
+setup.py
+wechat_interfaces/__init__.py
+wechat_interfaces.egg-info/PKG-INFO
+wechat_interfaces.egg-info/SOURCES.txt
+wechat_interfaces.egg-info/dependency_links.txt
+wechat_interfaces.egg-info/top_level.txt
+wechat_interfaces/srv/__init__.py
+wechat_interfaces/srv/_we_chat_message.py

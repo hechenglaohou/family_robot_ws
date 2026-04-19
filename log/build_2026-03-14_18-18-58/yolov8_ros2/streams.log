@@ -1,0 +1,36 @@
+[1.302s] Invoking command in '/opt/2026_product/family_robot_ws/src/yolov8_ros2': PYTHONPATH=/opt/2026_product/family_robot_ws/build/yolov8_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_ros2 build --build-base /opt/2026_product/family_robot_ws/build/yolov8_ros2/build install --record /opt/2026_product/family_robot_ws/build/yolov8_ros2/install.log --single-version-externally-managed install_data
+[1.885s] running egg_info
+[1.886s] creating ../../build/yolov8_ros2/yolov8_ros2.egg-info
+[1.888s] writing manifest file '../../build/yolov8_ros2/yolov8_ros2.egg-info/SOURCES.txt'
+[1.891s] writing manifest file '../../build/yolov8_ros2/yolov8_ros2.egg-info/SOURCES.txt'
+[1.892s] running build
+[1.892s] running build_py
+[1.893s] creating /opt/2026_product/family_robot_ws/build/yolov8_ros2/build
+[1.893s] creating /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib
+[1.893s] creating /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2
+[1.894s] copying yolov8_ros2/publish_image.py -> /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2
+[1.894s] copying yolov8_ros2/__init__.py -> /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2
+[1.894s] copying yolov8_ros2/yolov8_ros2.py -> /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2
+[1.895s] copying yolov8_ros2/yolov8_ros2（另一个复件）.py -> /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2
+[1.895s] running install
+[1.899s] running install_lib
+[1.901s] creating /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2
+[1.901s] copying /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2/publish_image.py -> /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2
+[1.901s] copying /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2/__init__.py -> /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2
+[1.902s] copying /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2/yolov8_ros2.py -> /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2
+[1.902s] copying /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2/yolov8_ros2（另一个复件）.py -> /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2
+[1.903s] byte-compiling /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2/publish_image.py to publish_image.cpython-310.pyc
+[1.904s] byte-compiling /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2/__init__.py to __init__.cpython-310.pyc
+[1.905s] byte-compiling /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2/yolov8_ros2.py to yolov8_ros2.cpython-310.pyc
+[1.908s] byte-compiling /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2/yolov8_ros2（另一个复件）.py to yolov8_ros2（另一个复件）.cpython-310.pyc
+[1.911s] running install_data
+[1.911s] creating /opt/2026_product/family_robot_ws/install/yolov8_ros2/share/ament_index
+[1.911s] creating /opt/2026_product/family_robot_ws/install/yolov8_ros2/share/ament_index/resource_index
+[1.912s] creating /opt/2026_product/family_robot_ws/install/yolov8_ros2/share/ament_index/resource_index/packages
+[1.912s] copying resource/yolov8_ros2 -> /opt/2026_product/family_robot_ws/install/yolov8_ros2/share/ament_index/resource_index/packages
+[1.913s] copying package.xml -> /opt/2026_product/family_robot_ws/install/yolov8_ros2/share/yolov8_ros2
+[1.913s] running install_egg_info
+[1.917s] Copying ../../build/yolov8_ros2/yolov8_ros2.egg-info to /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2-0.0.0-py3.10.egg-info
+[1.919s] running install_scripts
+[1.960s] writing list of installed files to '/opt/2026_product/family_robot_ws/build/yolov8_ros2/install.log'
+[2.014s] Invoked command in '/opt/2026_product/family_robot_ws/src/yolov8_ros2' returned '0': PYTHONPATH=/opt/2026_product/family_robot_ws/build/yolov8_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_ros2 build --build-base /opt/2026_product/family_robot_ws/build/yolov8_ros2/build install --record /opt/2026_product/family_robot_ws/build/yolov8_ros2/install.log --single-version-externally-managed install_data

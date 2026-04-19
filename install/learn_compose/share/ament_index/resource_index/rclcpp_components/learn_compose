@@ -1,0 +1,3 @@
+learn_compose::Talker;lib/libtalker_component.so
+learn_compose::Listener;lib/liblistener_component.so
+learn_compose::MotionDetector;lib/libmotion_detector_component.so

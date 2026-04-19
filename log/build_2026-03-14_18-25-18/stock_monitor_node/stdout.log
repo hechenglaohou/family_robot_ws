@@ -1,0 +1,12 @@
+running egg_info
+writing manifest file '../../../build/stock_monitor_node/stock_monitor_node.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/stock_monitor_node/stock_monitor_node.egg-info to /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/opt/2026_product/family_robot_ws/build/stock_monitor_node/install.log'

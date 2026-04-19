@@ -1,0 +1,30 @@
+[1.570s] Invoking command in '/opt/2026_product/family_robot_ws/src/laofu_message/stock_monitor_node': PYTHONPATH=/opt/2026_product/family_robot_ws/build/stock_monitor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/stock_monitor_node build --build-base /opt/2026_product/family_robot_ws/build/stock_monitor_node/build install --record /opt/2026_product/family_robot_ws/build/stock_monitor_node/install.log --single-version-externally-managed install_data
+[2.150s] running egg_info
+[2.151s] creating ../../../build/stock_monitor_node/stock_monitor_node.egg-info
+[2.153s] writing manifest file '../../../build/stock_monitor_node/stock_monitor_node.egg-info/SOURCES.txt'
+[2.156s] writing manifest file '../../../build/stock_monitor_node/stock_monitor_node.egg-info/SOURCES.txt'
+[2.156s] running build
+[2.157s] running build_py
+[2.157s] creating /opt/2026_product/family_robot_ws/build/stock_monitor_node/build
+[2.157s] creating /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib
+[2.157s] creating /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib/stock_monitor_node
+[2.157s] copying stock_monitor_node/__init__.py -> /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib/stock_monitor_node
+[2.158s] copying stock_monitor_node/stock_monitor.py -> /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib/stock_monitor_node
+[2.158s] running install
+[2.161s] running install_lib
+[2.162s] creating /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node
+[2.162s] copying /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib/stock_monitor_node/__init__.py -> /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node
+[2.162s] copying /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib/stock_monitor_node/stock_monitor.py -> /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node
+[2.163s] byte-compiling /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node/__init__.py to __init__.cpython-310.pyc
+[2.163s] byte-compiling /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node/stock_monitor.py to stock_monitor.cpython-310.pyc
+[2.165s] running install_data
+[2.165s] creating /opt/2026_product/family_robot_ws/install/stock_monitor_node/share/ament_index
+[2.165s] creating /opt/2026_product/family_robot_ws/install/stock_monitor_node/share/ament_index/resource_index
+[2.165s] creating /opt/2026_product/family_robot_ws/install/stock_monitor_node/share/ament_index/resource_index/packages
+[2.165s] copying resource/stock_monitor_node -> /opt/2026_product/family_robot_ws/install/stock_monitor_node/share/ament_index/resource_index/packages
+[2.166s] copying package.xml -> /opt/2026_product/family_robot_ws/install/stock_monitor_node/share/stock_monitor_node
+[2.166s] running install_egg_info
+[2.168s] Copying ../../../build/stock_monitor_node/stock_monitor_node.egg-info to /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node-0.0.0-py3.10.egg-info
+[2.170s] running install_scripts
+[2.202s] writing list of installed files to '/opt/2026_product/family_robot_ws/build/stock_monitor_node/install.log'
+[2.242s] Invoked command in '/opt/2026_product/family_robot_ws/src/laofu_message/stock_monitor_node' returned '0': PYTHONPATH=/opt/2026_product/family_robot_ws/build/stock_monitor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/stock_monitor_node build --build-base /opt/2026_product/family_robot_ws/build/stock_monitor_node/build install --record /opt/2026_product/family_robot_ws/build/stock_monitor_node/install.log --single-version-externally-managed install_data

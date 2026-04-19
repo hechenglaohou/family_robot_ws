@@ -1,0 +1,4 @@
+Invoking command in '/opt/2026_product/family_robot_ws/build/wechat_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /opt/2026_product/family_robot_ws/build/wechat_interfaces -- -j4 -l4
+Invoked command in '/opt/2026_product/family_robot_ws/build/wechat_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /opt/2026_product/family_robot_ws/build/wechat_interfaces -- -j4 -l4
+Invoking command in '/opt/2026_product/family_robot_ws/build/wechat_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /opt/2026_product/family_robot_ws/build/wechat_interfaces
+Invoked command in '/opt/2026_product/family_robot_ws/build/wechat_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /opt/2026_product/family_robot_ws/build/wechat_interfaces

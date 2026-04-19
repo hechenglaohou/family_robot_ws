@@ -1,0 +1,28 @@
+running egg_info
+creating ../../../build/stock_monitor_node/stock_monitor_node.egg-info
+writing manifest file '../../../build/stock_monitor_node/stock_monitor_node.egg-info/SOURCES.txt'
+writing manifest file '../../../build/stock_monitor_node/stock_monitor_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /opt/2026_product/family_robot_ws/build/stock_monitor_node/build
+creating /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib
+creating /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib/stock_monitor_node
+copying stock_monitor_node/__init__.py -> /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib/stock_monitor_node
+copying stock_monitor_node/stock_monitor.py -> /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib/stock_monitor_node
+running install
+running install_lib
+creating /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node
+copying /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib/stock_monitor_node/__init__.py -> /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node
+copying /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib/stock_monitor_node/stock_monitor.py -> /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node
+byte-compiling /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node/__init__.py to __init__.cpython-310.pyc
+byte-compiling /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node/stock_monitor.py to stock_monitor.cpython-310.pyc
+running install_data
+creating /opt/2026_product/family_robot_ws/install/stock_monitor_node/share/ament_index
+creating /opt/2026_product/family_robot_ws/install/stock_monitor_node/share/ament_index/resource_index
+creating /opt/2026_product/family_robot_ws/install/stock_monitor_node/share/ament_index/resource_index/packages
+copying resource/stock_monitor_node -> /opt/2026_product/family_robot_ws/install/stock_monitor_node/share/ament_index/resource_index/packages
+copying package.xml -> /opt/2026_product/family_robot_ws/install/stock_monitor_node/share/stock_monitor_node
+running install_egg_info
+Copying ../../../build/stock_monitor_node/stock_monitor_node.egg-info to /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/opt/2026_product/family_robot_ws/build/stock_monitor_node/install.log'

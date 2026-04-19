@@ -1,0 +1,30 @@
+[2.416s] Invoking command in '/opt/2026_product/family_robot_ws/src/laofu_message/web_wenxun_sender_node': AMENT_PREFIX_PATH=/opt/2026_product/family_robot_ws/install/wechat_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/2026_product/family_robot_ws/install/wechat_interfaces LD_LIBRARY_PATH=/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages:/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/web_wenxun_sender_node build --build-base /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build install --record /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/install.log --single-version-externally-managed install_data
+[3.543s] running egg_info
+[3.545s] creating ../../../build/web_wenxun_sender_node/web_wenxun_sender_node.egg-info
+[3.547s] writing manifest file '../../../build/web_wenxun_sender_node/web_wenxun_sender_node.egg-info/SOURCES.txt'
+[3.555s] writing manifest file '../../../build/web_wenxun_sender_node/web_wenxun_sender_node.egg-info/SOURCES.txt'
+[3.555s] running build
+[3.556s] running build_py
+[3.556s] creating /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build
+[3.556s] creating /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build/lib
+[3.557s] creating /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build/lib/web_wenxun_sender_node
+[3.557s] copying web_wenxun_sender_node/__init__.py -> /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build/lib/web_wenxun_sender_node
+[3.558s] copying web_wenxun_sender_node/web_wenxun_sender.py -> /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build/lib/web_wenxun_sender_node
+[3.569s] running install
+[3.572s] running install_lib
+[3.574s] creating /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages/web_wenxun_sender_node
+[3.574s] copying /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build/lib/web_wenxun_sender_node/__init__.py -> /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages/web_wenxun_sender_node
+[3.574s] copying /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build/lib/web_wenxun_sender_node/web_wenxun_sender.py -> /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages/web_wenxun_sender_node
+[3.575s] byte-compiling /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages/web_wenxun_sender_node/__init__.py to __init__.cpython-310.pyc
+[3.575s] byte-compiling /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages/web_wenxun_sender_node/web_wenxun_sender.py to web_wenxun_sender.cpython-310.pyc
+[3.578s] running install_data
+[3.578s] creating /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/ament_index
+[3.578s] creating /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/ament_index/resource_index
+[3.579s] creating /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/ament_index/resource_index/packages
+[3.579s] copying resource/web_wenxun_sender_node -> /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/ament_index/resource_index/packages
+[3.579s] copying package.xml -> /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/web_wenxun_sender_node
+[3.580s] running install_egg_info
+[3.593s] Copying ../../../build/web_wenxun_sender_node/web_wenxun_sender_node.egg-info to /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages/web_wenxun_sender_node-0.0.0-py3.10.egg-info
+[3.594s] running install_scripts
+[3.628s] writing list of installed files to '/opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/install.log'
+[3.689s] Invoked command in '/opt/2026_product/family_robot_ws/src/laofu_message/web_wenxun_sender_node' returned '0': AMENT_PREFIX_PATH=/opt/2026_product/family_robot_ws/install/wechat_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/2026_product/family_robot_ws/install/wechat_interfaces LD_LIBRARY_PATH=/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages:/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/web_wenxun_sender_node build --build-base /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build install --record /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/install.log --single-version-externally-managed install_data

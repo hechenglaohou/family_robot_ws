@@ -1,0 +1,4 @@
+[console_scripts]
+image_publisher = yolov8_ros2.publish_image:main
+yolov8_ros2 = yolov8_ros2.yolov8_ros2:main
+

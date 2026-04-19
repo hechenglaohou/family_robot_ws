@@ -1,0 +1,12 @@
+running egg_info
+writing manifest file '../../build/yolov8_ros2/yolov8_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/yolov8_ros2/yolov8_ros2.egg-info to /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/opt/2026_product/family_robot_ws/build/yolov8_ros2/install.log'

@@ -1,0 +1,992 @@
+[0.000000] (-) TimerEvent: {}
+[0.000173] (family_robot_head) JobQueued: {'identifier': 'family_robot_head', 'dependencies': OrderedDict()}
+[0.000227] (learn_compose) JobQueued: {'identifier': 'learn_compose', 'dependencies': OrderedDict()}
+[0.000271] (stock_monitor_node) JobQueued: {'identifier': 'stock_monitor_node', 'dependencies': OrderedDict()}
+[0.000314] (wechat_interfaces) JobQueued: {'identifier': 'wechat_interfaces', 'dependencies': OrderedDict()}
+[0.000356] (yolov8_ros2) JobQueued: {'identifier': 'yolov8_ros2', 'dependencies': OrderedDict()}
+[0.000402] (web_wenxun_sender_node) JobQueued: {'identifier': 'web_wenxun_sender_node', 'dependencies': OrderedDict([('wechat_interfaces', '/opt/2026_product/family_robot_ws/install/wechat_interfaces')])}
+[0.000449] (wechat_interfaces) JobStarted: {'identifier': 'wechat_interfaces'}
+[0.016114] (family_robot_head) JobStarted: {'identifier': 'family_robot_head'}
+[0.019890] (learn_compose) JobStarted: {'identifier': 'learn_compose'}
+[0.025535] (stock_monitor_node) JobStarted: {'identifier': 'stock_monitor_node'}
+[0.037394] (wechat_interfaces) JobProgress: {'identifier': 'wechat_interfaces', 'progress': 'cmake'}
+[0.038279] (wechat_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/opt/2026_product/family_robot_ws/src/laofu_message/wechat_interfaces', '-DCMAKE_INSTALL_PREFIX=/opt/2026_product/family_robot_ws/install/wechat_interfaces'], 'cwd': '/opt/2026_product/family_robot_ws/build/wechat_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hhc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hhc'), ('OLDPWD', '/opt/2026_product'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1327'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hhc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hhc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hhc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hhc-desktop:@/tmp/.ICE-unix/1327,unix/hhc-desktop:/tmp/.ICE-unix/1327'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d86f845_0371_4e86_beee_730fbe16a5c2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQTAM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/opt/2026_product/family_robot_ws/build/wechat_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.044416] (family_robot_head) JobProgress: {'identifier': 'family_robot_head', 'progress': 'cmake'}
+[0.045833] (family_robot_head) Command: {'cmd': ['/usr/bin/cmake', '/opt/2026_product/family_robot_ws/src/family_robot_head', '-DCMAKE_INSTALL_PREFIX=/opt/2026_product/family_robot_ws/install/family_robot_head'], 'cwd': '/opt/2026_product/family_robot_ws/build/family_robot_head', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hhc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hhc'), ('OLDPWD', '/opt/2026_product'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1327'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hhc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hhc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hhc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hhc-desktop:@/tmp/.ICE-unix/1327,unix/hhc-desktop:/tmp/.ICE-unix/1327'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d86f845_0371_4e86_beee_730fbe16a5c2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQTAM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/opt/2026_product/family_robot_ws/build/family_robot_head'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.047415] (learn_compose) JobProgress: {'identifier': 'learn_compose', 'progress': 'cmake'}
+[0.048637] (learn_compose) Command: {'cmd': ['/usr/bin/cmake', '/opt/2026_product/family_robot_ws/src/video_face_move/learn_compose', '-DCMAKE_INSTALL_PREFIX=/opt/2026_product/family_robot_ws/install/learn_compose'], 'cwd': '/opt/2026_product/family_robot_ws/build/learn_compose', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hhc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hhc'), ('OLDPWD', '/opt/2026_product'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1327'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hhc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hhc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hhc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hhc-desktop:@/tmp/.ICE-unix/1327,unix/hhc-desktop:/tmp/.ICE-unix/1327'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d86f845_0371_4e86_beee_730fbe16a5c2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQTAM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/opt/2026_product/family_robot_ws/build/learn_compose'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098771] (-) TimerEvent: {}
+[0.199174] (-) TimerEvent: {}
+[0.299609] (-) TimerEvent: {}
+[0.400011] (-) TimerEvent: {}
+[0.500432] (-) TimerEvent: {}
+[0.600916] (-) TimerEvent: {}
+[0.682255] (learn_compose) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.682526] (family_robot_head) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.684041] (wechat_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.701005] (-) TimerEvent: {}
+[0.801542] (-) TimerEvent: {}
+[0.901875] (-) TimerEvent: {}
+[1.002220] (-) TimerEvent: {}
+[1.102590] (-) TimerEvent: {}
+[1.202940] (-) TimerEvent: {}
+[1.303275] (-) TimerEvent: {}
+[1.348655] (family_robot_head) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.349111] (wechat_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.355529] (learn_compose) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.381741] (family_robot_head) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.382144] (wechat_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.382305] (learn_compose) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.403478] (-) TimerEvent: {}
+[1.503816] (-) TimerEvent: {}
+[1.535241] (learn_compose) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.539459] (family_robot_head) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.552894] (wechat_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.553559] (family_robot_head) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.554574] (family_robot_head) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.555368] (learn_compose) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.555762] (learn_compose) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.556847] (learn_compose) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.557070] (family_robot_head) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.563853] (family_robot_head) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.564107] (learn_compose) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.569578] (wechat_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.570480] (wechat_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.571370] (wechat_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.576928] (wechat_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.594971] (stock_monitor_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/stock_monitor_node', 'build', '--build-base', '/opt/2026_product/family_robot_ws/build/stock_monitor_node/build', 'install', '--record', '/opt/2026_product/family_robot_ws/build/stock_monitor_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/opt/2026_product/family_robot_ws/src/laofu_message/stock_monitor_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'hhc', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hhc', 'OLDPWD': '/opt/2026_product', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1327', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hhc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hhc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/hhc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hhc-desktop:@/tmp/.ICE-unix/1327,unix/hhc-desktop:/tmp/.ICE-unix/1327', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7d86f845_0371_4e86_beee_730fbe16a5c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VQTAM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.131', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/opt/2026_product/family_robot_ws/build/stock_monitor_node', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/2026_product/family_robot_ws/build/stock_monitor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.603913] (-) TimerEvent: {}
+[1.704300] (-) TimerEvent: {}
+[1.717202] (learn_compose) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.717907] (wechat_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.719399] (family_robot_head) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.728320] (learn_compose) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.729014] (learn_compose) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.730006] (learn_compose) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.733625] (family_robot_head) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.735488] (family_robot_head) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.735699] (family_robot_head) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.737810] (wechat_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.738991] (wechat_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.740876] (wechat_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.749721] (wechat_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.749918] (learn_compose) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.750210] (family_robot_head) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.804393] (-) TimerEvent: {}
+[1.904752] (-) TimerEvent: {}
+[2.005116] (-) TimerEvent: {}
+[2.105494] (-) TimerEvent: {}
+[2.175628] (stock_monitor_node) StdoutLine: {'line': b'running egg_info\n'}
+[2.176633] (stock_monitor_node) StdoutLine: {'line': b'creating ../../../build/stock_monitor_node/stock_monitor_node.egg-info\n'}
+[2.178005] (stock_monitor_node) StdoutLine: {'line': b"writing manifest file '../../../build/stock_monitor_node/stock_monitor_node.egg-info/SOURCES.txt'\n"}
+[2.181570] (stock_monitor_node) StdoutLine: {'line': b"writing manifest file '../../../build/stock_monitor_node/stock_monitor_node.egg-info/SOURCES.txt'\n"}
+[2.181833] (stock_monitor_node) StdoutLine: {'line': b'running build\n'}
+[2.182048] (stock_monitor_node) StdoutLine: {'line': b'running build_py\n'}
+[2.182352] (stock_monitor_node) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/build/stock_monitor_node/build\n'}
+[2.182541] (stock_monitor_node) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib\n'}
+[2.182693] (stock_monitor_node) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib/stock_monitor_node\n'}
+[2.182883] (stock_monitor_node) StdoutLine: {'line': b'copying stock_monitor_node/__init__.py -> /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib/stock_monitor_node\n'}
+[2.183099] (stock_monitor_node) StdoutLine: {'line': b'copying stock_monitor_node/stock_monitor.py -> /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib/stock_monitor_node\n'}
+[2.183283] (stock_monitor_node) StdoutLine: {'line': b'running install\n'}
+[2.186086] (stock_monitor_node) StdoutLine: {'line': b'running install_lib\n'}
+[2.187056] (stock_monitor_node) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node\n'}
+[2.187296] (stock_monitor_node) StdoutLine: {'line': b'copying /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib/stock_monitor_node/__init__.py -> /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node\n'}
+[2.187496] (stock_monitor_node) StdoutLine: {'line': b'copying /opt/2026_product/family_robot_ws/build/stock_monitor_node/build/lib/stock_monitor_node/stock_monitor.py -> /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node\n'}
+[2.188160] (stock_monitor_node) StdoutLine: {'line': b'byte-compiling /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node/__init__.py to __init__.cpython-310.pyc\n'}
+[2.188500] (stock_monitor_node) StdoutLine: {'line': b'byte-compiling /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node/stock_monitor.py to stock_monitor.cpython-310.pyc\n'}
+[2.189983] (stock_monitor_node) StdoutLine: {'line': b'running install_data\n'}
+[2.190262] (stock_monitor_node) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/install/stock_monitor_node/share/ament_index\n'}
+[2.190450] (stock_monitor_node) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/install/stock_monitor_node/share/ament_index/resource_index\n'}
+[2.190724] (stock_monitor_node) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/install/stock_monitor_node/share/ament_index/resource_index/packages\n'}
+[2.190882] (stock_monitor_node) StdoutLine: {'line': b'copying resource/stock_monitor_node -> /opt/2026_product/family_robot_ws/install/stock_monitor_node/share/ament_index/resource_index/packages\n'}
+[2.191034] (stock_monitor_node) StdoutLine: {'line': b'copying package.xml -> /opt/2026_product/family_robot_ws/install/stock_monitor_node/share/stock_monitor_node\n'}
+[2.191185] (stock_monitor_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.193463] (stock_monitor_node) StdoutLine: {'line': b'Copying ../../../build/stock_monitor_node/stock_monitor_node.egg-info to /opt/2026_product/family_robot_ws/install/stock_monitor_node/lib/python3.10/site-packages/stock_monitor_node-0.0.0-py3.10.egg-info\n'}
+[2.195068] (stock_monitor_node) StdoutLine: {'line': b'running install_scripts\n'}
+[2.205591] (-) TimerEvent: {}
+[2.227253] (stock_monitor_node) StdoutLine: {'line': b"writing list of installed files to '/opt/2026_product/family_robot_ws/build/stock_monitor_node/install.log'\n"}
+[2.267755] (stock_monitor_node) CommandEnded: {'returncode': 0}
+[2.293689] (stock_monitor_node) JobEnded: {'identifier': 'stock_monitor_node', 'rc': 0}
+[2.294467] (yolov8_ros2) JobStarted: {'identifier': 'yolov8_ros2'}
+[2.305670] (-) TimerEvent: {}
+[2.405968] (-) TimerEvent: {}
+[2.506380] (-) TimerEvent: {}
+[2.606763] (-) TimerEvent: {}
+[2.707106] (-) TimerEvent: {}
+[2.807445] (-) TimerEvent: {}
+[2.907767] (-) TimerEvent: {}
+[2.993425] (learn_compose) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.999923] (wechat_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.000593] (family_robot_head) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.007869] (-) TimerEvent: {}
+[3.108308] (-) TimerEvent: {}
+[3.180997] (learn_compose) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.181341] (family_robot_head) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.181796] (wechat_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.192380] (wechat_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.208415] (-) TimerEvent: {}
+[3.209835] (wechat_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.279338] (learn_compose) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.280115] (family_robot_head) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.286782] (learn_compose) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.287951] (family_robot_head) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.304041] (learn_compose) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.304367] (family_robot_head) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.306018] (wechat_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.308489] (-) TimerEvent: {}
+[3.336428] (learn_compose) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.342933] (family_robot_head) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.363438] (learn_compose) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.375681] (family_robot_head) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.380914] (wechat_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.408591] (-) TimerEvent: {}
+[3.471577] (learn_compose) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.471932] (family_robot_head) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.480976] (learn_compose) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.481290] (family_robot_head) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.508724] (-) TimerEvent: {}
+[3.595817] (yolov8_ros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/yolov8_ros2', 'build', '--build-base', '/opt/2026_product/family_robot_ws/build/yolov8_ros2/build', 'install', '--record', '/opt/2026_product/family_robot_ws/build/yolov8_ros2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/opt/2026_product/family_robot_ws/src/yolov8_ros2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'hhc', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hhc', 'OLDPWD': '/opt/2026_product', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1327', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hhc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hhc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/hhc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hhc-desktop:@/tmp/.ICE-unix/1327,unix/hhc-desktop:/tmp/.ICE-unix/1327', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7d86f845_0371_4e86_beee_730fbe16a5c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VQTAM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.131', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/opt/2026_product/family_robot_ws/build/yolov8_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/2026_product/family_robot_ws/build/yolov8_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.608827] (-) TimerEvent: {}
+[3.630234] (family_robot_head) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.650382] (learn_compose) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.672699] (family_robot_head) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.689844] (learn_compose) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.708927] (-) TimerEvent: {}
+[3.732403] (family_robot_head) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.751449] (learn_compose) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.759935] (family_robot_head) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.762819] (learn_compose) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.809039] (-) TimerEvent: {}
+[3.894095] (learn_compose) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.894694] (learn_compose) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.898955] (family_robot_head) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.899917] (family_robot_head) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.909130] (-) TimerEvent: {}
+[4.009478] (-) TimerEvent: {}
+[4.019256] (learn_compose) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.021283] (learn_compose) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.023369] (family_robot_head) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.025463] (family_robot_head) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.096694] (wechat_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.109575] (-) TimerEvent: {}
+[4.135393] (family_robot_head) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.135779] (learn_compose) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.179297] (yolov8_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[4.180379] (yolov8_ros2) StdoutLine: {'line': b'creating ../../build/yolov8_ros2/yolov8_ros2.egg-info\n'}
+[4.181987] (yolov8_ros2) StdoutLine: {'line': b"writing manifest file '../../build/yolov8_ros2/yolov8_ros2.egg-info/SOURCES.txt'\n"}
+[4.185864] (yolov8_ros2) StdoutLine: {'line': b"writing manifest file '../../build/yolov8_ros2/yolov8_ros2.egg-info/SOURCES.txt'\n"}
+[4.186282] (yolov8_ros2) StdoutLine: {'line': b'running build\n'}
+[4.186539] (yolov8_ros2) StdoutLine: {'line': b'running build_py\n'}
+[4.187045] (yolov8_ros2) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/build/yolov8_ros2/build\n'}
+[4.187315] (yolov8_ros2) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib\n'}
+[4.187589] (yolov8_ros2) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2\n'}
+[4.187916] (yolov8_ros2) StdoutLine: {'line': b'copying yolov8_ros2/publish_image.py -> /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2\n'}
+[4.188366] (yolov8_ros2) StdoutLine: {'line': b'copying yolov8_ros2/__init__.py -> /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2\n'}
+[4.188786] (yolov8_ros2) StdoutLine: {'line': b'copying yolov8_ros2/yolov8_ros2.py -> /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2\n'}
+[4.189253] (yolov8_ros2) StdoutLine: {'line': b'copying yolov8_ros2/yolov8_ros2\xef\xbc\x88\xe5\x8f\xa6\xe4\xb8\x80\xe4\xb8\xaa\xe5\xa4\x8d\xe4\xbb\xb6\xef\xbc\x89.py -> /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2\n'}
+[4.189860] (yolov8_ros2) StdoutLine: {'line': b'running install\n'}
+[4.193451] (yolov8_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[4.194911] (yolov8_ros2) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2\n'}
+[4.195274] (yolov8_ros2) StdoutLine: {'line': b'copying /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2/publish_image.py -> /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2\n'}
+[4.195731] (yolov8_ros2) StdoutLine: {'line': b'copying /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2/__init__.py -> /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2\n'}
+[4.196082] (yolov8_ros2) StdoutLine: {'line': b'copying /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2/yolov8_ros2.py -> /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2\n'}
+[4.196532] (yolov8_ros2) StdoutLine: {'line': b'copying /opt/2026_product/family_robot_ws/build/yolov8_ros2/build/lib/yolov8_ros2/yolov8_ros2\xef\xbc\x88\xe5\x8f\xa6\xe4\xb8\x80\xe4\xb8\xaa\xe5\xa4\x8d\xe4\xbb\xb6\xef\xbc\x89.py -> /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2\n'}
+[4.197547] (yolov8_ros2) StdoutLine: {'line': b'byte-compiling /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2/publish_image.py to publish_image.cpython-310.pyc\n'}
+[4.198616] (yolov8_ros2) StdoutLine: {'line': b'byte-compiling /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2/__init__.py to __init__.cpython-310.pyc\n'}
+[4.198846] (family_robot_head) StdoutLine: {'line': b'-- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") \n'}
+[4.199364] (yolov8_ros2) StdoutLine: {'line': b'byte-compiling /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2/yolov8_ros2.py to yolov8_ros2.cpython-310.pyc\n'}
+[4.200771] (learn_compose) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.17 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[4.202510] (yolov8_ros2) StdoutLine: {'line': b'byte-compiling /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2/yolov8_ros2\xef\xbc\x88\xe5\x8f\xa6\xe4\xb8\x80\xe4\xb8\xaa\xe5\xa4\x8d\xe4\xbb\xb6\xef\xbc\x89.py to yolov8_ros2\xef\xbc\x88\xe5\x8f\xa6\xe4\xb8\x80\xe4\xb8\xaa\xe5\xa4\x8d\xe4\xbb\xb6\xef\xbc\x89.cpython-310.pyc\n'}
+[4.204908] (yolov8_ros2) StdoutLine: {'line': b'running install_data\n'}
+[4.205131] (family_robot_head) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.205538] (yolov8_ros2) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/install/yolov8_ros2/share/ament_index\n'}
+[4.205814] (yolov8_ros2) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/install/yolov8_ros2/share/ament_index/resource_index\n'}
+[4.206146] (yolov8_ros2) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/install/yolov8_ros2/share/ament_index/resource_index/packages\n'}
+[4.206514] (yolov8_ros2) StdoutLine: {'line': b'copying resource/yolov8_ros2 -> /opt/2026_product/family_robot_ws/install/yolov8_ros2/share/ament_index/resource_index/packages\n'}
+[4.206972] (yolov8_ros2) StdoutLine: {'line': b'copying package.xml -> /opt/2026_product/family_robot_ws/install/yolov8_ros2/share/yolov8_ros2\n'}
+[4.207363] (yolov8_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.209665] (-) TimerEvent: {}
+[4.211088] (yolov8_ros2) StdoutLine: {'line': b'Copying ../../build/yolov8_ros2/yolov8_ros2.egg-info to /opt/2026_product/family_robot_ws/install/yolov8_ros2/lib/python3.10/site-packages/yolov8_ros2-0.0.0-py3.10.egg-info\n'}
+[4.213146] (yolov8_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[4.254605] (yolov8_ros2) StdoutLine: {'line': b"writing list of installed files to '/opt/2026_product/family_robot_ws/build/yolov8_ros2/install.log'\n"}
+[4.279661] (learn_compose) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[4.308389] (yolov8_ros2) CommandEnded: {'returncode': 0}
+[4.309210] (learn_compose) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: core videoio imgcodecs imgproc highgui objdetect face \n'}
+[4.309513] (learn_compose) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:41 (message):\n'}
+[4.309695] (-) TimerEvent: {}
+[4.309979] (learn_compose) StderrLine: {'line': b'  \n'}
+[4.310152] (learn_compose) StderrLine: {'line': b'  \xe6\xa0\xb9\xe7\x9b\xae\xe5\xbd\x95Config\xe6\x9c\xaa\xe6\x89\xbe\xe5\x88\xb0\xef\xbc\x9a/home/hhc/family_robot_ws/src/video_face_move/config\xef\xbc\x8c\xe8\xbf\x90\xe8\xa1\x8c\xe6\x97\xb6\xe4\xbc\x9a\xe8\x87\xaa\xe5\x8a\xa8\xe5\x88\x9b\xe5\xbb\xba\n'}
+[4.310303] (learn_compose) StderrLine: {'line': b'\n'}
+[4.310450] (learn_compose) StderrLine: {'line': b'\x1b[0m\n'}
+[4.314374] (yolov8_ros2) JobEnded: {'identifier': 'yolov8_ros2', 'rc': 0}
+[4.326280] (learn_compose) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.359102] (family_robot_head) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.361149] (family_robot_head) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.361402] (family_robot_head) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /opt/2026_product/family_robot_ws/src/family_robot_head/include\n'}
+[4.361563] (family_robot_head) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.363531] (family_robot_head) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.363702] (family_robot_head) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.365408] (family_robot_head) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.367714] (family_robot_head) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.367886] (family_robot_head) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.368675] (family_robot_head) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.371678] (family_robot_head) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.387537] (family_robot_head) StdoutLine: {'line': b'-- Generating done\n'}
+[4.394134] (family_robot_head) StdoutLine: {'line': b'-- Build files have been written to: /opt/2026_product/family_robot_ws/build/family_robot_head\n'}
+[4.409434] (family_robot_head) CommandEnded: {'returncode': 0}
+[4.409976] (-) TimerEvent: {}
+[4.410201] (family_robot_head) JobProgress: {'identifier': 'family_robot_head', 'progress': 'build'}
+[4.410254] (family_robot_head) Command: {'cmd': ['/usr/bin/cmake', '--build', '/opt/2026_product/family_robot_ws/build/family_robot_head', '--', '-j4', '-l4'], 'cwd': '/opt/2026_product/family_robot_ws/build/family_robot_head', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hhc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hhc'), ('OLDPWD', '/opt/2026_product'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1327'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hhc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hhc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hhc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hhc-desktop:@/tmp/.ICE-unix/1327,unix/hhc-desktop:/tmp/.ICE-unix/1327'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d86f845_0371_4e86_beee_730fbe16a5c2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQTAM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/opt/2026_product/family_robot_ws/build/family_robot_head'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.457243] (learn_compose) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.458763] (learn_compose) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /opt/2026_product/family_robot_ws/src/video_face_move/learn_compose/include;/opt/2026_product/family_robot_ws/src/video_face_move/learn_compose/include/learn_compose\n'}
+[4.458951] (learn_compose) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.460135] (learn_compose) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.462187] (learn_compose) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.462367] (learn_compose) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.462970] (learn_compose) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.464658] (learn_compose) StdoutLine: {'line': b'-- \xe9\xa1\xb9\xe7\x9b\xae\xe7\xbc\x96\xe8\xaf\x91\xe8\xb7\xaf\xe5\xbe\x84: /opt/2026_product/family_robot_ws/build/learn_compose\n'}
+[4.464838] (learn_compose) StdoutLine: {'line': b'-- \xe5\xae\x89\xe8\xa3\x85\xe8\xb7\xaf\xe5\xbe\x84: /opt/2026_product/family_robot_ws/install/learn_compose\n'}
+[4.465045] (learn_compose) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.475245] (family_robot_head) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/head_node.dir/src/head_node.cpp.o\x1b[0m\n'}
+[4.510128] (-) TimerEvent: {}
+[4.530525] (learn_compose) StdoutLine: {'line': b'-- Generating done\n'}
+[4.557268] (learn_compose) StdoutLine: {'line': b'-- Build files have been written to: /opt/2026_product/family_robot_ws/build/learn_compose\n'}
+[4.572961] (learn_compose) CommandEnded: {'returncode': 0}
+[4.575334] (learn_compose) JobProgress: {'identifier': 'learn_compose', 'progress': 'build'}
+[4.575403] (learn_compose) Command: {'cmd': ['/usr/bin/cmake', '--build', '/opt/2026_product/family_robot_ws/build/learn_compose', '--', '-j4', '-l4'], 'cwd': '/opt/2026_product/family_robot_ws/build/learn_compose', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hhc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hhc'), ('OLDPWD', '/opt/2026_product'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1327'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hhc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hhc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hhc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hhc-desktop:@/tmp/.ICE-unix/1327,unix/hhc-desktop:/tmp/.ICE-unix/1327'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d86f845_0371_4e86_beee_730fbe16a5c2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQTAM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/opt/2026_product/family_robot_ws/build/learn_compose'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.610238] (-) TimerEvent: {}
+[4.649189] (learn_compose) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/talker_component.dir/src/talker.cpp.o\x1b[0m\n'}
+[4.658660] (learn_compose) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/talker_node.dir/src/talker.cpp.o\x1b[0m\n'}
+[4.670409] (learn_compose) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener_component.dir/src/listener.cpp.o\x1b[0m\n'}
+[4.675840] (learn_compose) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/listener_node.dir/src/listener.cpp.o\x1b[0m\n'}
+[4.684520] (wechat_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.710353] (-) TimerEvent: {}
+[4.810721] (-) TimerEvent: {}
+[4.911176] (-) TimerEvent: {}
+[5.011623] (-) TimerEvent: {}
+[5.111974] (-) TimerEvent: {}
+[5.212341] (-) TimerEvent: {}
+[5.312707] (-) TimerEvent: {}
+[5.413151] (-) TimerEvent: {}
+[5.513596] (-) TimerEvent: {}
+[5.573352] (wechat_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.613716] (-) TimerEvent: {}
+[5.617659] (wechat_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.630772] (wechat_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.703912] (wechat_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.704253] (wechat_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.704409] (wechat_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.704562] (wechat_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.713810] (-) TimerEvent: {}
+[5.746136] (wechat_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.813934] (-) TimerEvent: {}
+[5.914429] (-) TimerEvent: {}
+[5.916296] (wechat_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.980385] (wechat_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.982060] (wechat_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.986437] (wechat_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.014546] (-) TimerEvent: {}
+[6.049264] (wechat_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[6.070982] (wechat_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /opt/2026_product/family_robot_ws/build/wechat_interfaces\n'}
+[6.098376] (wechat_interfaces) CommandEnded: {'returncode': 0}
+[6.099029] (wechat_interfaces) JobProgress: {'identifier': 'wechat_interfaces', 'progress': 'build'}
+[6.099082] (wechat_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/opt/2026_product/family_robot_ws/build/wechat_interfaces', '--', '-j4', '-l4'], 'cwd': '/opt/2026_product/family_robot_ws/build/wechat_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hhc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hhc'), ('OLDPWD', '/opt/2026_product'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1327'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hhc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hhc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hhc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hhc-desktop:@/tmp/.ICE-unix/1327,unix/hhc-desktop:/tmp/.ICE-unix/1327'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d86f845_0371_4e86_beee_730fbe16a5c2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQTAM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/opt/2026_product/family_robot_ws/build/wechat_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.114651] (-) TimerEvent: {}
+[6.215133] (-) TimerEvent: {}
+[6.262187] (wechat_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.315236] (-) TimerEvent: {}
+[6.320409] (wechat_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_wechat_interfaces\n'}
+[6.342070] (wechat_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.415338] (-) TimerEvent: {}
+[6.515686] (-) TimerEvent: {}
+[6.616194] (-) TimerEvent: {}
+[6.716555] (-) TimerEvent: {}
+[6.816920] (-) TimerEvent: {}
+[6.917372] (-) TimerEvent: {}
+[7.017814] (-) TimerEvent: {}
+[7.118284] (-) TimerEvent: {}
+[7.218745] (-) TimerEvent: {}
+[7.319200] (-) TimerEvent: {}
+[7.419698] (-) TimerEvent: {}
+[7.442652] (wechat_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[7.443955] (wechat_interfaces) StdoutLine: {'line': b'creating wechat_interfaces.egg-info\n'}
+[7.445549] (wechat_interfaces) StdoutLine: {'line': b"writing manifest file 'wechat_interfaces.egg-info/SOURCES.txt'\n"}
+[7.460240] (wechat_interfaces) StdoutLine: {'line': b"writing manifest file 'wechat_interfaces.egg-info/SOURCES.txt'\n"}
+[7.461441] (wechat_interfaces) StdoutLine: {'line': b'[  6%] Built target wechat_interfaces__cpp\n'}
+[7.481914] (wechat_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.519798] (-) TimerEvent: {}
+[7.525132] (wechat_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.591502] (wechat_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_wechat_interfaces_egg\n'}
+[7.619907] (-) TimerEvent: {}
+[7.621794] (wechat_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.720008] (-) TimerEvent: {}
+[7.747453] (wechat_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/wechat_interfaces__rosidl_generator_c.dir/rosidl_generator_c/wechat_interfaces/srv/detail/we_chat_message__functions.c.o\x1b[0m\n'}
+[7.820117] (-) TimerEvent: {}
+[7.920476] (-) TimerEvent: {}
+[8.006170] (wechat_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libwechat_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[8.020583] (-) TimerEvent: {}
+[8.120966] (-) TimerEvent: {}
+[8.176121] (wechat_interfaces) StdoutLine: {'line': b'[ 22%] Built target wechat_interfaces__rosidl_generator_c\n'}
+[8.218057] (wechat_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.221039] (-) TimerEvent: {}
+[8.321445] (-) TimerEvent: {}
+[8.421901] (-) TimerEvent: {}
+[8.522407] (-) TimerEvent: {}
+[8.547612] (wechat_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/wechat_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wechat_interfaces/srv/we_chat_message__type_support.cpp.o\x1b[0m\n'}
+[8.622529] (-) TimerEvent: {}
+[8.722998] (-) TimerEvent: {}
+[8.823472] (-) TimerEvent: {}
+[8.923858] (-) TimerEvent: {}
+[8.932455] (wechat_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/wechat_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wechat_interfaces/srv/detail/dds_fastrtps/we_chat_message__type_support.cpp.o\x1b[0m\n'}
+[8.987707] (wechat_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/wechat_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wechat_interfaces/srv/detail/we_chat_message__type_support.cpp.o\x1b[0m\n'}
+[9.023978] (-) TimerEvent: {}
+[9.124377] (-) TimerEvent: {}
+[9.234448] (-) TimerEvent: {}
+[9.334841] (-) TimerEvent: {}
+[9.435212] (-) TimerEvent: {}
+[9.535606] (-) TimerEvent: {}
+[9.636012] (-) TimerEvent: {}
+[9.736510] (-) TimerEvent: {}
+[9.837009] (-) TimerEvent: {}
+[9.919031] (wechat_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/wechat_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wechat_interfaces/srv/detail/we_chat_message__type_support_c.cpp.o\x1b[0m\n'}
+[9.931297] (wechat_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libwechat_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.937123] (-) TimerEvent: {}
+[10.037522] (-) TimerEvent: {}
+[10.138049] (-) TimerEvent: {}
+[10.148534] (wechat_interfaces) StdoutLine: {'line': b'[ 41%] Built target wechat_interfaces__rosidl_typesupport_cpp\n'}
+[10.238165] (-) TimerEvent: {}
+[10.239595] (wechat_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.338277] (-) TimerEvent: {}
+[10.440398] (-) TimerEvent: {}
+[10.540775] (-) TimerEvent: {}
+[10.641146] (-) TimerEvent: {}
+[10.741539] (-) TimerEvent: {}
+[10.841926] (-) TimerEvent: {}
+[10.942305] (-) TimerEvent: {}
+[11.011509] (wechat_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libwechat_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.011774] (wechat_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libwechat_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.042409] (-) TimerEvent: {}
+[11.142799] (-) TimerEvent: {}
+[11.243281] (-) TimerEvent: {}
+[11.266579] (wechat_interfaces) StdoutLine: {'line': b'[ 51%] Built target wechat_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[11.269395] (wechat_interfaces) StdoutLine: {'line': b'[ 51%] Built target wechat_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[11.283780] (wechat_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.343385] (-) TimerEvent: {}
+[11.443849] (-) TimerEvent: {}
+[11.544317] (-) TimerEvent: {}
+[11.644783] (-) TimerEvent: {}
+[11.649038] (wechat_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libwechat_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.744887] (-) TimerEvent: {}
+[11.845362] (-) TimerEvent: {}
+[11.907867] (wechat_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/wechat_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wechat_interfaces/srv/detail/we_chat_message__type_support.c.o\x1b[0m\n'}
+[11.945478] (-) TimerEvent: {}
+[12.045894] (-) TimerEvent: {}
+[12.065730] (wechat_interfaces) StdoutLine: {'line': b'[ 61%] Built target wechat_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[12.089891] (wechat_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libwechat_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.146017] (-) TimerEvent: {}
+[12.246410] (-) TimerEvent: {}
+[12.273155] (wechat_interfaces) StdoutLine: {'line': b'[ 64%] Built target wechat_interfaces__rosidl_typesupport_introspection_c\n'}
+[12.346551] (-) TimerEvent: {}
+[12.447094] (-) TimerEvent: {}
+[12.456945] (wechat_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/wechat_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/wechat_interfaces/srv/we_chat_message__type_support.cpp.o\x1b[0m\n'}
+[12.547209] (-) TimerEvent: {}
+[12.617496] (wechat_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libwechat_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.647330] (-) TimerEvent: {}
+[12.747747] (-) TimerEvent: {}
+[12.810876] (wechat_interfaces) StdoutLine: {'line': b'[ 70%] Built target wechat_interfaces__rosidl_typesupport_c\n'}
+[12.847867] (-) TimerEvent: {}
+[12.934193] (wechat_interfaces) StdoutLine: {'line': b'[ 70%] Built target wechat_interfaces\n'}
+[12.947985] (-) TimerEvent: {}
+[13.031109] (wechat_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.048128] (-) TimerEvent: {}
+[13.148551] (-) TimerEvent: {}
+[13.248970] (-) TimerEvent: {}
+[13.349375] (-) TimerEvent: {}
+[13.449764] (-) TimerEvent: {}
+[13.550162] (-) TimerEvent: {}
+[13.650652] (-) TimerEvent: {}
+[13.751031] (-) TimerEvent: {}
+[13.851432] (-) TimerEvent: {}
+[13.951834] (-) TimerEvent: {}
+[14.052220] (-) TimerEvent: {}
+[14.152636] (-) TimerEvent: {}
+[14.253013] (-) TimerEvent: {}
+[14.353403] (-) TimerEvent: {}
+[14.453824] (-) TimerEvent: {}
+[14.554277] (-) TimerEvent: {}
+[14.592344] (wechat_interfaces) StdoutLine: {'line': b'[ 74%] Built target wechat_interfaces__py\n'}
+[14.654395] (-) TimerEvent: {}
+[14.711519] (wechat_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/wechat_interfaces__rosidl_generator_py.dir/rosidl_generator_py/wechat_interfaces/srv/_we_chat_message_s.c.o\x1b[0m\n'}
+[14.755095] (-) TimerEvent: {}
+[14.855481] (-) TimerEvent: {}
+[14.955897] (-) TimerEvent: {}
+[15.056400] (-) TimerEvent: {}
+[15.156863] (-) TimerEvent: {}
+[15.213356] (wechat_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wechat_interfaces/libwechat_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[15.256988] (-) TimerEvent: {}
+[15.357388] (-) TimerEvent: {}
+[15.400560] (wechat_interfaces) StdoutLine: {'line': b'[ 80%] Built target wechat_interfaces__rosidl_generator_py\n'}
+[15.457516] (-) TimerEvent: {}
+[15.517061] (wechat_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/wechat_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wechat_interfaces/_wechat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.557645] (-) TimerEvent: {}
+[15.559467] (wechat_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/wechat_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wechat_interfaces/_wechat_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[15.560039] (wechat_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/wechat_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wechat_interfaces/_wechat_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[15.657761] (-) TimerEvent: {}
+[15.758938] (-) TimerEvent: {}
+[15.859429] (-) TimerEvent: {}
+[15.935036] (wechat_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.958902] (wechat_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.959499] (-) TimerEvent: {}
+[16.025287] (wechat_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.059634] (-) TimerEvent: {}
+[16.144776] (wechat_interfaces) StdoutLine: {'line': b'[100%] Built target wechat_interfaces__rosidl_typesupport_c__pyext\n'}
+[16.149434] (wechat_interfaces) StdoutLine: {'line': b'[100%] Built target wechat_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.159755] (-) TimerEvent: {}
+[16.211721] (wechat_interfaces) StdoutLine: {'line': b'[100%] Built target wechat_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[16.254476] (wechat_interfaces) CommandEnded: {'returncode': 0}
+[16.255129] (wechat_interfaces) JobProgress: {'identifier': 'wechat_interfaces', 'progress': 'install'}
+[16.259861] (-) TimerEvent: {}
+[16.276565] (wechat_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/opt/2026_product/family_robot_ws/build/wechat_interfaces'], 'cwd': '/opt/2026_product/family_robot_ws/build/wechat_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hhc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hhc'), ('OLDPWD', '/opt/2026_product'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1327'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hhc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hhc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hhc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hhc-desktop:@/tmp/.ICE-unix/1327,unix/hhc-desktop:/tmp/.ICE-unix/1327'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d86f845_0371_4e86_beee_730fbe16a5c2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQTAM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/opt/2026_product/family_robot_ws/build/wechat_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.311529] (wechat_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.311877] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/ament_index/resource_index/rosidl_interfaces/wechat_interfaces\n'}
+[16.312078] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces\n'}
+[16.312314] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv\n'}
+[16.312539] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/we_chat_message.h\n'}
+[16.312710] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail\n'}
+[16.312930] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__functions.h\n'}
+[16.313109] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__struct.h\n'}
+[16.313322] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__type_support.h\n'}
+[16.313483] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__functions.c\n'}
+[16.313691] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg\n'}
+[16.313899] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.314153] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/environment/library_path.sh\n'}
+[16.314364] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/environment/library_path.dsv\n'}
+[16.314606] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_generator_c.so\n'}
+[16.315225] (wechat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_generator_c.so" to ""\n'}
+[16.315469] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces\n'}
+[16.315631] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv\n'}
+[16.315786] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail\n'}
+[16.316004] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__rosidl_typesupport_fastrtps_c.h\n'}
+[16.316176] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg\n'}
+[16.316331] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.326011] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[16.326704] (wechat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.326945] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces\n'}
+[16.327119] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv\n'}
+[16.327273] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail\n'}
+[16.327515] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__rosidl_typesupport_introspection_c.h\n'}
+[16.327675] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__type_support.c\n'}
+[16.327828] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg\n'}
+[16.327981] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.328184] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[16.328395] (wechat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.328603] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_c.so\n'}
+[16.328973] (wechat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[16.329231] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces\n'}
+[16.329390] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv\n'}
+[16.329543] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/we_chat_message.hpp\n'}
+[16.329759] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail\n'}
+[16.329916] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__traits.hpp\n'}
+[16.330084] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__builder.hpp\n'}
+[16.330296] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__struct.hpp\n'}
+[16.330454] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__type_support.hpp\n'}
+[16.330680] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg\n'}
+[16.330838] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[16.331003] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces\n'}
+[16.331257] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv\n'}
+[16.331425] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail\n'}
+[16.331655] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/dds_fastrtps\n'}
+[16.331809] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.331961] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg\n'}
+[16.332190] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.332488] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.332690] (wechat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[16.332859] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces\n'}
+[16.333063] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv\n'}
+[16.333216] (wechat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail\n'}
+[16.333368] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.333603] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/include/wechat_interfaces/wechat_interfaces/srv/detail/we_chat_message__type_support.cpp\n'}
+[16.333807] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[16.333960] (wechat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.334166] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_cpp.so\n'}
+[16.334438] (wechat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[16.334661] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/environment/pythonpath.sh\n'}
+[16.334908] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/environment/pythonpath.dsv\n'}
+[16.335146] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces-0.0.0-py3.10.egg-info\n'}
+[16.335419] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[16.335632] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[16.335865] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[16.336111] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[16.336315] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces\n'}
+[16.336468] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/srv\n'}
+[16.336619] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/srv/_we_chat_message.py\n'}
+[16.343088] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/srv/__init__.py\n'}
+[16.343391] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/srv/_we_chat_message_s.c\n'}
+[16.343620] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/_wechat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[16.344017] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.344240] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/_wechat_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[16.344463] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/__init__.py\n'}
+[16.344684] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/_wechat_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[16.344900] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.345098] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/libwechat_interfaces__rosidl_generator_py.so\n'}
+[16.345251] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.359980] (-) TimerEvent: {}
+[16.460472] (-) TimerEvent: {}
+[16.469787] (wechat_interfaces) StdoutLine: {'line': b"Listing '/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces'...\n"}
+[16.470073] (wechat_interfaces) StdoutLine: {'line': b"Compiling '/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/__init__.py'...\n"}
+[16.470235] (wechat_interfaces) StdoutLine: {'line': b"Listing '/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/srv'...\n"}
+[16.470389] (wechat_interfaces) StdoutLine: {'line': b"Compiling '/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/srv/__init__.py'...\n"}
+[16.470542] (wechat_interfaces) StdoutLine: {'line': b"Compiling '/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/srv/_we_chat_message.py'...\n"}
+[16.492313] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.492576] (wechat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.492817] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.493452] (wechat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.493670] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.494393] (wechat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages/wechat_interfaces/wechat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.494568] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_generator_py.so\n'}
+[16.494858] (wechat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib/libwechat_interfaces__rosidl_generator_py.so" to ""\n'}
+[16.495069] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/srv/WeChatMessage.idl\n'}
+[16.495276] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/srv/WeChatMessage.srv\n'}
+[16.495525] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/srv/WeChatMessage_Request.msg\n'}
+[16.495742] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/srv/WeChatMessage_Response.msg\n'}
+[16.496032] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/ament_index/resource_index/package_run_dependencies/wechat_interfaces\n'}
+[16.498833] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/ament_index/resource_index/parent_prefix_path/wechat_interfaces\n'}
+[16.499111] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/environment/ament_prefix_path.sh\n'}
+[16.499320] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/environment/ament_prefix_path.dsv\n'}
+[16.499528] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/environment/path.sh\n'}
+[16.499748] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/environment/path.dsv\n'}
+[16.499980] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/local_setup.bash\n'}
+[16.500210] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/local_setup.sh\n'}
+[16.500450] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/local_setup.zsh\n'}
+[16.500677] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/local_setup.dsv\n'}
+[16.500908] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/package.dsv\n'}
+[16.501198] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/ament_index/resource_index/packages/wechat_interfaces\n'}
+[16.501499] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_generator_cExport.cmake\n'}
+[16.501736] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.508355] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[16.508669] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[16.508942] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.509253] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.509521] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[16.509763] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.510051] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_generator_cppExport.cmake\n'}
+[16.510307] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[16.510563] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[16.510826] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.511076] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.511338] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[16.511582] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.511845] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_generator_pyExport.cmake\n'}
+[16.512094] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/export_wechat_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[16.512324] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[16.512559] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.512806] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.513036] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.513283] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.513518] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.513760] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.513993] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfacesConfig.cmake\n'}
+[16.518201] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/cmake/wechat_interfacesConfig-version.cmake\n'}
+[16.518488] (wechat_interfaces) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/wechat_interfaces/share/wechat_interfaces/package.xml\n'}
+[16.526132] (wechat_interfaces) CommandEnded: {'returncode': 0}
+[16.552728] (wechat_interfaces) JobEnded: {'identifier': 'wechat_interfaces', 'rc': 0}
+[16.553755] (web_wenxun_sender_node) JobStarted: {'identifier': 'web_wenxun_sender_node'}
+[16.560551] (-) TimerEvent: {}
+[16.660912] (-) TimerEvent: {}
+[16.761288] (-) TimerEvent: {}
+[16.861792] (-) TimerEvent: {}
+[16.962279] (-) TimerEvent: {}
+[17.062982] (-) TimerEvent: {}
+[17.163343] (-) TimerEvent: {}
+[17.263762] (-) TimerEvent: {}
+[17.364121] (-) TimerEvent: {}
+[17.464488] (-) TimerEvent: {}
+[17.564849] (-) TimerEvent: {}
+[17.665252] (-) TimerEvent: {}
+[17.765716] (-) TimerEvent: {}
+[17.866379] (-) TimerEvent: {}
+[17.966878] (-) TimerEvent: {}
+[18.067369] (-) TimerEvent: {}
+[18.167826] (-) TimerEvent: {}
+[18.268308] (-) TimerEvent: {}
+[18.368781] (-) TimerEvent: {}
+[18.469255] (-) TimerEvent: {}
+[18.569713] (-) TimerEvent: {}
+[18.670172] (-) TimerEvent: {}
+[18.770638] (-) TimerEvent: {}
+[18.871111] (-) TimerEvent: {}
+[18.968718] (web_wenxun_sender_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/web_wenxun_sender_node', 'build', '--build-base', '/opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build', 'install', '--record', '/opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/opt/2026_product/family_robot_ws/src/laofu_message/web_wenxun_sender_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'hhc', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/2026_product/family_robot_ws/install/wechat_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hhc', 'OLDPWD': '/opt/2026_product', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1327', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hhc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hhc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/hhc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hhc-desktop:@/tmp/.ICE-unix/1327,unix/hhc-desktop:/tmp/.ICE-unix/1327', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7d86f845_0371_4e86_beee_730fbe16a5c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VQTAM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.131', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/2026_product/family_robot_ws/install/wechat_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/opt/2026_product/family_robot_ws/build/web_wenxun_sender_node', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages:/opt/2026_product/family_robot_ws/install/wechat_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/opt/2026_product/family_robot_ws/install/wechat_interfaces'}, 'shell': False}
+[18.971595] (-) TimerEvent: {}
+[19.071930] (-) TimerEvent: {}
+[19.172310] (-) TimerEvent: {}
+[19.272717] (-) TimerEvent: {}
+[19.373109] (-) TimerEvent: {}
+[19.473578] (-) TimerEvent: {}
+[19.574047] (-) TimerEvent: {}
+[19.674494] (-) TimerEvent: {}
+[19.774967] (-) TimerEvent: {}
+[19.875432] (-) TimerEvent: {}
+[19.975787] (-) TimerEvent: {}
+[20.076141] (-) TimerEvent: {}
+[20.096886] (web_wenxun_sender_node) StdoutLine: {'line': b'running egg_info\n'}
+[20.098557] (web_wenxun_sender_node) StdoutLine: {'line': b'creating ../../../build/web_wenxun_sender_node/web_wenxun_sender_node.egg-info\n'}
+[20.100400] (web_wenxun_sender_node) StdoutLine: {'line': b"writing manifest file '../../../build/web_wenxun_sender_node/web_wenxun_sender_node.egg-info/SOURCES.txt'\n"}
+[20.108278] (web_wenxun_sender_node) StdoutLine: {'line': b"writing manifest file '../../../build/web_wenxun_sender_node/web_wenxun_sender_node.egg-info/SOURCES.txt'\n"}
+[20.108846] (web_wenxun_sender_node) StdoutLine: {'line': b'running build\n'}
+[20.109185] (web_wenxun_sender_node) StdoutLine: {'line': b'running build_py\n'}
+[20.109765] (web_wenxun_sender_node) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build\n'}
+[20.110123] (web_wenxun_sender_node) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build/lib\n'}
+[20.110464] (web_wenxun_sender_node) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build/lib/web_wenxun_sender_node\n'}
+[20.110845] (web_wenxun_sender_node) StdoutLine: {'line': b'copying web_wenxun_sender_node/__init__.py -> /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build/lib/web_wenxun_sender_node\n'}
+[20.111368] (web_wenxun_sender_node) StdoutLine: {'line': b'copying web_wenxun_sender_node/web_wenxun_sender.py -> /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build/lib/web_wenxun_sender_node\n'}
+[20.122628] (web_wenxun_sender_node) StdoutLine: {'line': b'running install\n'}
+[20.126104] (web_wenxun_sender_node) StdoutLine: {'line': b'running install_lib\n'}
+[20.127144] (web_wenxun_sender_node) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages/web_wenxun_sender_node\n'}
+[20.127396] (web_wenxun_sender_node) StdoutLine: {'line': b'copying /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build/lib/web_wenxun_sender_node/__init__.py -> /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages/web_wenxun_sender_node\n'}
+[20.127647] (web_wenxun_sender_node) StdoutLine: {'line': b'copying /opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/build/lib/web_wenxun_sender_node/web_wenxun_sender.py -> /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages/web_wenxun_sender_node\n'}
+[20.128340] (web_wenxun_sender_node) StdoutLine: {'line': b'byte-compiling /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages/web_wenxun_sender_node/__init__.py to __init__.cpython-310.pyc\n'}
+[20.128707] (web_wenxun_sender_node) StdoutLine: {'line': b'byte-compiling /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages/web_wenxun_sender_node/web_wenxun_sender.py to web_wenxun_sender.cpython-310.pyc\n'}
+[20.131484] (web_wenxun_sender_node) StdoutLine: {'line': b'running install_data\n'}
+[20.131790] (web_wenxun_sender_node) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/ament_index\n'}
+[20.131949] (web_wenxun_sender_node) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/ament_index/resource_index\n'}
+[20.132180] (web_wenxun_sender_node) StdoutLine: {'line': b'creating /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/ament_index/resource_index/packages\n'}
+[20.132338] (web_wenxun_sender_node) StdoutLine: {'line': b'copying resource/web_wenxun_sender_node -> /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/ament_index/resource_index/packages\n'}
+[20.132491] (web_wenxun_sender_node) StdoutLine: {'line': b'copying package.xml -> /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/share/web_wenxun_sender_node\n'}
+[20.133348] (web_wenxun_sender_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.146165] (web_wenxun_sender_node) StdoutLine: {'line': b'Copying ../../../build/web_wenxun_sender_node/web_wenxun_sender_node.egg-info to /opt/2026_product/family_robot_ws/install/web_wenxun_sender_node/lib/python3.10/site-packages/web_wenxun_sender_node-0.0.0-py3.10.egg-info\n'}
+[20.147890] (web_wenxun_sender_node) StdoutLine: {'line': b'running install_scripts\n'}
+[20.176240] (-) TimerEvent: {}
+[20.182111] (web_wenxun_sender_node) StdoutLine: {'line': b"writing list of installed files to '/opt/2026_product/family_robot_ws/build/web_wenxun_sender_node/install.log'\n"}
+[20.242500] (web_wenxun_sender_node) CommandEnded: {'returncode': 0}
+[20.249755] (web_wenxun_sender_node) JobEnded: {'identifier': 'web_wenxun_sender_node', 'rc': 0}
+[20.284088] (-) TimerEvent: {}
+[20.384529] (-) TimerEvent: {}
+[20.484915] (-) TimerEvent: {}
+[20.585315] (-) TimerEvent: {}
+[20.585928] (learn_compose) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libtalker_component.so\x1b[0m\n'}
+[20.685450] (-) TimerEvent: {}
+[20.785924] (-) TimerEvent: {}
+[20.875130] (learn_compose) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable talker_node\x1b[0m\n'}
+[20.886076] (-) TimerEvent: {}
+[20.986578] (-) TimerEvent: {}
+[21.087070] (-) TimerEvent: {}
+[21.187474] (-) TimerEvent: {}
+[21.287889] (-) TimerEvent: {}
+[21.388307] (-) TimerEvent: {}
+[21.488847] (-) TimerEvent: {}
+[21.589412] (-) TimerEvent: {}
+[21.689830] (-) TimerEvent: {}
+[21.790230] (-) TimerEvent: {}
+[21.805937] (learn_compose) StdoutLine: {'line': b'[ 50%] Built target talker_component\n'}
+[21.864823] (learn_compose) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/motion_detector_component.dir/src/motion_detector.cpp.o\x1b[0m\n'}
+[21.890344] (-) TimerEvent: {}
+[21.991474] (-) TimerEvent: {}
+[22.092204] (-) TimerEvent: {}
+[22.192681] (-) TimerEvent: {}
+[22.293202] (-) TimerEvent: {}
+[22.393667] (-) TimerEvent: {}
+[22.494136] (-) TimerEvent: {}
+[22.594576] (-) TimerEvent: {}
+[22.695075] (-) TimerEvent: {}
+[22.795519] (-) TimerEvent: {}
+[22.810373] (learn_compose) StdoutLine: {'line': b'[ 58%] Built target talker_node\n'}
+[22.895636] (-) TimerEvent: {}
+[22.918568] (learn_compose) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/motion_detector_node.dir/src/motion_detector.cpp.o\x1b[0m\n'}
+[22.995764] (-) TimerEvent: {}
+[23.096147] (-) TimerEvent: {}
+[23.196652] (-) TimerEvent: {}
+[23.297055] (-) TimerEvent: {}
+[23.397435] (-) TimerEvent: {}
+[23.497828] (-) TimerEvent: {}
+[23.598269] (-) TimerEvent: {}
+[23.698782] (-) TimerEvent: {}
+[23.799270] (-) TimerEvent: {}
+[23.899773] (-) TimerEvent: {}
+[24.000276] (-) TimerEvent: {}
+[24.100826] (-) TimerEvent: {}
+[24.202761] (-) TimerEvent: {}
+[24.303231] (-) TimerEvent: {}
+[24.403598] (-) TimerEvent: {}
+[24.504084] (-) TimerEvent: {}
+[24.604555] (-) TimerEvent: {}
+[24.705029] (-) TimerEvent: {}
+[24.805505] (-) TimerEvent: {}
+[24.905985] (-) TimerEvent: {}
+[25.006478] (-) TimerEvent: {}
+[25.106854] (-) TimerEvent: {}
+[25.207227] (-) TimerEvent: {}
+[25.307777] (-) TimerEvent: {}
+[25.408140] (-) TimerEvent: {}
+[25.508549] (-) TimerEvent: {}
+[25.608936] (-) TimerEvent: {}
+[25.709327] (-) TimerEvent: {}
+[25.809688] (-) TimerEvent: {}
+[25.910182] (-) TimerEvent: {}
+[26.010721] (-) TimerEvent: {}
+[26.111119] (-) TimerEvent: {}
+[26.211583] (-) TimerEvent: {}
+[26.312048] (-) TimerEvent: {}
+[26.412419] (-) TimerEvent: {}
+[26.512802] (-) TimerEvent: {}
+[26.613190] (-) TimerEvent: {}
+[26.713567] (-) TimerEvent: {}
+[26.814049] (-) TimerEvent: {}
+[26.914531] (-) TimerEvent: {}
+[27.015000] (-) TimerEvent: {}
+[27.115484] (-) TimerEvent: {}
+[27.215966] (-) TimerEvent: {}
+[27.316437] (-) TimerEvent: {}
+[27.416807] (-) TimerEvent: {}
+[27.517180] (-) TimerEvent: {}
+[27.617559] (-) TimerEvent: {}
+[27.717918] (-) TimerEvent: {}
+[27.818305] (-) TimerEvent: {}
+[27.918663] (-) TimerEvent: {}
+[28.019043] (-) TimerEvent: {}
+[28.119430] (-) TimerEvent: {}
+[28.219920] (-) TimerEvent: {}
+[28.320409] (-) TimerEvent: {}
+[28.420885] (-) TimerEvent: {}
+[28.521356] (-) TimerEvent: {}
+[28.621838] (-) TimerEvent: {}
+[28.722220] (-) TimerEvent: {}
+[28.822612] (-) TimerEvent: {}
+[28.922992] (-) TimerEvent: {}
+[29.023366] (-) TimerEvent: {}
+[29.123753] (-) TimerEvent: {}
+[29.224140] (-) TimerEvent: {}
+[29.324531] (-) TimerEvent: {}
+[29.424900] (-) TimerEvent: {}
+[29.525264] (-) TimerEvent: {}
+[29.625628] (-) TimerEvent: {}
+[29.726061] (-) TimerEvent: {}
+[29.826621] (-) TimerEvent: {}
+[29.927191] (-) TimerEvent: {}
+[30.027660] (-) TimerEvent: {}
+[30.128135] (-) TimerEvent: {}
+[30.228668] (-) TimerEvent: {}
+[30.329205] (-) TimerEvent: {}
+[30.429735] (-) TimerEvent: {}
+[30.530346] (-) TimerEvent: {}
+[30.630855] (-) TimerEvent: {}
+[30.731389] (-) TimerEvent: {}
+[30.831918] (-) TimerEvent: {}
+[30.932421] (-) TimerEvent: {}
+[30.937898] (learn_compose) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable listener_node\x1b[0m\n'}
+[31.032541] (-) TimerEvent: {}
+[31.132924] (-) TimerEvent: {}
+[31.233341] (-) TimerEvent: {}
+[31.333883] (-) TimerEvent: {}
+[31.434399] (-) TimerEvent: {}
+[31.534844] (-) TimerEvent: {}
+[31.635383] (-) TimerEvent: {}
+[31.735985] (-) TimerEvent: {}
+[31.836594] (-) TimerEvent: {}
+[31.937246] (-) TimerEvent: {}
+[32.037765] (-) TimerEvent: {}
+[32.039958] (learn_compose) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library liblistener_component.so\x1b[0m\n'}
+[32.137902] (-) TimerEvent: {}
+[32.238411] (-) TimerEvent: {}
+[32.338968] (-) TimerEvent: {}
+[32.439461] (-) TimerEvent: {}
+[32.539895] (-) TimerEvent: {}
+[32.640330] (-) TimerEvent: {}
+[32.740801] (-) TimerEvent: {}
+[32.841229] (-) TimerEvent: {}
+[32.941733] (-) TimerEvent: {}
+[33.042269] (-) TimerEvent: {}
+[33.122340] (learn_compose) StdoutLine: {'line': b'[ 83%] Built target listener_node\n'}
+[33.142383] (-) TimerEvent: {}
+[33.242761] (-) TimerEvent: {}
+[33.343162] (-) TimerEvent: {}
+[33.395156] (learn_compose) StdoutLine: {'line': b'[ 83%] Built target listener_component\n'}
+[33.443269] (-) TimerEvent: {}
+[33.543633] (-) TimerEvent: {}
+[33.643981] (-) TimerEvent: {}
+[33.744323] (-) TimerEvent: {}
+[33.844667] (-) TimerEvent: {}
+[33.945034] (-) TimerEvent: {}
+[34.045376] (-) TimerEvent: {}
+[34.145723] (-) TimerEvent: {}
+[34.246124] (-) TimerEvent: {}
+[34.346486] (-) TimerEvent: {}
+[34.446836] (-) TimerEvent: {}
+[34.547194] (-) TimerEvent: {}
+[34.647546] (-) TimerEvent: {}
+[34.747903] (-) TimerEvent: {}
+[34.848265] (-) TimerEvent: {}
+[34.948635] (-) TimerEvent: {}
+[35.049028] (-) TimerEvent: {}
+[35.149406] (-) TimerEvent: {}
+[35.249844] (-) TimerEvent: {}
+[35.350297] (-) TimerEvent: {}
+[35.450729] (-) TimerEvent: {}
+[35.551257] (-) TimerEvent: {}
+[35.651801] (-) TimerEvent: {}
+[35.752339] (-) TimerEvent: {}
+[35.852910] (-) TimerEvent: {}
+[35.953471] (-) TimerEvent: {}
+[36.054109] (-) TimerEvent: {}
+[36.154793] (-) TimerEvent: {}
+[36.255359] (-) TimerEvent: {}
+[36.355952] (-) TimerEvent: {}
+[36.456507] (-) TimerEvent: {}
+[36.465625] (family_robot_head) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable head_node\x1b[0m\n'}
+[36.556746] (-) TimerEvent: {}
+[36.657386] (-) TimerEvent: {}
+[36.758176] (-) TimerEvent: {}
+[36.858845] (-) TimerEvent: {}
+[36.959535] (-) TimerEvent: {}
+[37.060027] (-) TimerEvent: {}
+[37.160546] (-) TimerEvent: {}
+[37.261073] (-) TimerEvent: {}
+[37.361650] (-) TimerEvent: {}
+[37.430710] (family_robot_head) StdoutLine: {'line': b'[100%] Built target head_node\n'}
+[37.445430] (family_robot_head) CommandEnded: {'returncode': 0}
+[37.447538] (family_robot_head) JobProgress: {'identifier': 'family_robot_head', 'progress': 'install'}
+[37.447605] (family_robot_head) Command: {'cmd': ['/usr/bin/cmake', '--install', '/opt/2026_product/family_robot_ws/build/family_robot_head'], 'cwd': '/opt/2026_product/family_robot_ws/build/family_robot_head', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hhc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hhc'), ('OLDPWD', '/opt/2026_product'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1327'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hhc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hhc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hhc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hhc-desktop:@/tmp/.ICE-unix/1327,unix/hhc-desktop:/tmp/.ICE-unix/1327'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d86f845_0371_4e86_beee_730fbe16a5c2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQTAM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/opt/2026_product/family_robot_ws/build/family_robot_head'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[37.457293] (family_robot_head) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.457607] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/lib/family_robot_head/head_node\n'}
+[37.461798] (-) TimerEvent: {}
+[37.466722] (family_robot_head) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/family_robot_head/lib/family_robot_head/head_node" to ""\n'}
+[37.466975] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/include/\n'}
+[37.467209] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/include//family_robot_head\n'}
+[37.467368] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/include//family_robot_head/head_node.hpp\n'}
+[37.467849] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/include//family_robot_head/head_node\xef\xbc\x88\xe5\xa4\x8d\xe4\xbb\xb6\xef\xbc\x89.hpp\n'}
+[37.468334] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/ament_index/resource_index/package_run_dependencies/family_robot_head\n'}
+[37.468590] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/ament_index/resource_index/parent_prefix_path/family_robot_head\n'}
+[37.468931] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/environment/ament_prefix_path.sh\n'}
+[37.469142] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/environment/ament_prefix_path.dsv\n'}
+[37.469379] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/environment/path.sh\n'}
+[37.469588] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/environment/path.dsv\n'}
+[37.469795] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/local_setup.bash\n'}
+[37.470020] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/local_setup.sh\n'}
+[37.470285] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/local_setup.zsh\n'}
+[37.470502] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/local_setup.dsv\n'}
+[37.470723] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/package.dsv\n'}
+[37.471043] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/ament_index/resource_index/packages/family_robot_head\n'}
+[37.471287] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/cmake/family_robot_headConfig.cmake\n'}
+[37.471508] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/cmake/family_robot_headConfig-version.cmake\n'}
+[37.471728] (family_robot_head) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/family_robot_head/share/family_robot_head/package.xml\n'}
+[37.486074] (family_robot_head) CommandEnded: {'returncode': 0}
+[37.499513] (family_robot_head) JobEnded: {'identifier': 'family_robot_head', 'rc': 0}
+[37.561970] (-) TimerEvent: {}
+[37.662353] (-) TimerEvent: {}
+[37.762740] (-) TimerEvent: {}
+[37.863160] (-) TimerEvent: {}
+[37.963558] (-) TimerEvent: {}
+[38.063984] (-) TimerEvent: {}
+[38.164392] (-) TimerEvent: {}
+[38.264794] (-) TimerEvent: {}
+[38.365173] (-) TimerEvent: {}
+[38.465552] (-) TimerEvent: {}
+[38.565943] (-) TimerEvent: {}
+[38.666434] (-) TimerEvent: {}
+[38.766807] (-) TimerEvent: {}
+[38.867173] (-) TimerEvent: {}
+[38.967564] (-) TimerEvent: {}
+[39.067940] (-) TimerEvent: {}
+[39.168319] (-) TimerEvent: {}
+[39.268698] (-) TimerEvent: {}
+[39.369070] (-) TimerEvent: {}
+[39.469435] (-) TimerEvent: {}
+[39.569875] (-) TimerEvent: {}
+[39.670221] (-) TimerEvent: {}
+[39.770595] (-) TimerEvent: {}
+[39.870975] (-) TimerEvent: {}
+[39.971353] (-) TimerEvent: {}
+[40.071727] (-) TimerEvent: {}
+[40.172106] (-) TimerEvent: {}
+[40.272497] (-) TimerEvent: {}
+[40.372900] (-) TimerEvent: {}
+[40.473276] (-) TimerEvent: {}
+[40.573654] (-) TimerEvent: {}
+[40.674058] (-) TimerEvent: {}
+[40.774433] (-) TimerEvent: {}
+[40.874829] (-) TimerEvent: {}
+[40.975230] (-) TimerEvent: {}
+[41.075610] (-) TimerEvent: {}
+[41.176008] (-) TimerEvent: {}
+[41.276385] (-) TimerEvent: {}
+[41.376734] (-) TimerEvent: {}
+[41.477205] (-) TimerEvent: {}
+[41.577598] (-) TimerEvent: {}
+[41.677996] (-) TimerEvent: {}
+[41.778384] (-) TimerEvent: {}
+[41.878757] (-) TimerEvent: {}
+[41.979118] (-) TimerEvent: {}
+[42.079563] (-) TimerEvent: {}
+[42.180018] (-) TimerEvent: {}
+[42.280424] (-) TimerEvent: {}
+[42.380836] (-) TimerEvent: {}
+[42.413407] (learn_compose) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library libmotion_detector_component.so\x1b[0m\n'}
+[42.481015] (-) TimerEvent: {}
+[42.581429] (-) TimerEvent: {}
+[42.681921] (-) TimerEvent: {}
+[42.782394] (-) TimerEvent: {}
+[42.882940] (-) TimerEvent: {}
+[42.983430] (-) TimerEvent: {}
+[43.083851] (-) TimerEvent: {}
+[43.184327] (-) TimerEvent: {}
+[43.281009] (learn_compose) StdoutLine: {'line': b'[ 91%] Built target motion_detector_component\n'}
+[43.284454] (-) TimerEvent: {}
+[43.384804] (-) TimerEvent: {}
+[43.485218] (-) TimerEvent: {}
+[43.585656] (-) TimerEvent: {}
+[43.686122] (-) TimerEvent: {}
+[43.786545] (-) TimerEvent: {}
+[43.887011] (-) TimerEvent: {}
+[43.936398] (learn_compose) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motion_detector_node\x1b[0m\n'}
+[43.987167] (-) TimerEvent: {}
+[44.087657] (-) TimerEvent: {}
+[44.188172] (-) TimerEvent: {}
+[44.288819] (-) TimerEvent: {}
+[44.389314] (-) TimerEvent: {}
+[44.489770] (-) TimerEvent: {}
+[44.590191] (-) TimerEvent: {}
+[44.690551] (-) TimerEvent: {}
+[44.790998] (-) TimerEvent: {}
+[44.891485] (-) TimerEvent: {}
+[44.991850] (-) TimerEvent: {}
+[44.996998] (learn_compose) StdoutLine: {'line': b'[100%] Built target motion_detector_node\n'}
+[45.011512] (learn_compose) CommandEnded: {'returncode': 0}
+[45.012449] (learn_compose) JobProgress: {'identifier': 'learn_compose', 'progress': 'install'}
+[45.013739] (learn_compose) Command: {'cmd': ['/usr/bin/cmake', '--install', '/opt/2026_product/family_robot_ws/build/learn_compose'], 'cwd': '/opt/2026_product/family_robot_ws/build/learn_compose', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hhc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hhc'), ('OLDPWD', '/opt/2026_product'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1327'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hhc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hhc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hhc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hhc-desktop:@/tmp/.ICE-unix/1327,unix/hhc-desktop:/tmp/.ICE-unix/1327'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d86f845_0371_4e86_beee_730fbe16a5c2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQTAM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/opt/2026_product/family_robot_ws/build/learn_compose'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f969b26890388ae7e19b6eaf69b5192b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[45.023803] (learn_compose) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[45.024230] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/lib/learn_compose/talker_node\n'}
+[45.026647] (learn_compose) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/learn_compose/lib/learn_compose/talker_node" to ""\n'}
+[45.026882] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/lib/learn_compose/listener_node\n'}
+[45.033463] (learn_compose) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/learn_compose/lib/learn_compose/listener_node" to ""\n'}
+[45.033694] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/lib/learn_compose/motion_detector_node\n'}
+[45.040726] (learn_compose) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/learn_compose/lib/learn_compose/motion_detector_node" to ""\n'}
+[45.040963] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/lib/libtalker_component.so\n'}
+[45.044675] (learn_compose) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/learn_compose/lib/libtalker_component.so" to ""\n'}
+[45.044866] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/lib/liblistener_component.so\n'}
+[45.056780] (learn_compose) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/learn_compose/lib/liblistener_component.so" to ""\n'}
+[45.057097] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/lib/libmotion_detector_component.so\n'}
+[45.069604] (learn_compose) StdoutLine: {'line': b'-- Set runtime path of "/opt/2026_product/family_robot_ws/install/learn_compose/lib/libmotion_detector_component.so" to ""\n'}
+[45.069849] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/include/learn_compose\n'}
+[45.070205] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/include/learn_compose/learn_compose\n'}
+[45.070473] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/include/learn_compose/learn_compose/listener.hpp\n'}
+[45.070748] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/include/learn_compose/learn_compose/motion_detector.hpp\n'}
+[45.070905] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/include/learn_compose/learn_compose/talker.hpp\n'}
+[45.071140] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/ament_index/resource_index/package_run_dependencies/learn_compose\n'}
+[45.071420] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/ament_index/resource_index/parent_prefix_path/learn_compose\n'}
+[45.071635] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/environment/ament_prefix_path.sh\n'}
+[45.071817] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/environment/ament_prefix_path.dsv\n'}
+[45.072012] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/environment/path.sh\n'}
+[45.072202] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/environment/path.dsv\n'}
+[45.072421] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/local_setup.bash\n'}
+[45.072617] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/local_setup.sh\n'}
+[45.072802] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/local_setup.zsh\n'}
+[45.072984] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/local_setup.dsv\n'}
+[45.073167] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/package.dsv\n'}
+[45.073360] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/ament_index/resource_index/packages/learn_compose\n'}
+[45.073629] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/ament_index/resource_index/rclcpp_components/learn_compose\n'}
+[45.073854] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/cmake/learn_composeConfig.cmake\n'}
+[45.074086] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/cmake/learn_composeConfig-version.cmake\n'}
+[45.074333] (learn_compose) StdoutLine: {'line': b'-- Installing: /opt/2026_product/family_robot_ws/install/learn_compose/share/learn_compose/package.xml\n'}
+[45.077591] (learn_compose) CommandEnded: {'returncode': 0}
+[45.092237] (-) TimerEvent: {}
+[45.102689] (learn_compose) JobEnded: {'identifier': 'learn_compose', 'rc': 0}
+[45.103693] (-) EventReactorShutdown: {}

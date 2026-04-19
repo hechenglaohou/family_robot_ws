@@ -1,0 +1,4 @@
+source;share/wechat_interfaces/local_setup.bash
+source;share/wechat_interfaces/local_setup.dsv
+source;share/wechat_interfaces/local_setup.sh
+source;share/wechat_interfaces/local_setup.zsh
